@@ -1,15 +1,19 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "bulma/css/bulma.css";
 
 
 import Home from "./pages/Home";
+import Services from "./pages/Services";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 
 
 
-const pages = ["home", "prices", "charts", "favorites", "mobile"];
+const pages = ["home", "Services", "about", "contact"];
 
 function App() {
   return (
@@ -21,7 +25,17 @@ function App() {
                 <Home />
               </Route>
 
+              <Route exact path="/services">
+                <Services />
+              </Route>
 
+              <Route exact path="/about">
+                <About />
+              </Route>
+
+              <Route exact path="/contact">
+                <Contact />
+              </Route>
 
               <Route component={NoMatch} />
             </Switch>
@@ -31,26 +45,3 @@ function App() {
 }
 
 export default App;
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
