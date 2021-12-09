@@ -41,7 +41,7 @@ export default class Navbar extends React.Component {
           </div>
 
           <div
-            className={`navbar-menu ${this.state.activeMenu ? "is-active" : ""}`}
+            className={`navbar-menu ${this.state.activeMenu ? "is-active" : "navbar-end"}`}
           >
           <Link
             className="navbar-item is-capitalized is-size-4 nav-item-styles"
