@@ -12,7 +12,6 @@ import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 
 
-
 const pages = ["home", "Services", "about", "contact"];
 
 function App() {
