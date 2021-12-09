@@ -3,6 +3,15 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./styles/navbar.css";
 
+const NavbarLogo = (props) => (
+  <Link
+    className="navbar-item is-capitalized is-size-3"
+    onClick={props.isOpen ? props.toggleMenu : null}
+  >
+    <img src="tab-icon.png" alt="Digifie" style={{ width: '2rem', height: '10rem'}}/>
+  </Link>
+);
+
 
 const NavbarItem = (props) => (
   <Link
@@ -47,20 +56,32 @@ export default class Navbar extends React.Component {
 
     return (
       <nav className={`navbar is-${color}`}>
-        {/* Render clickable Logo */}
-        <div className="navbar-brand">
+      {/* Render clickable Logo */}
+      <div className="navbar-brand">
+        <NavbarLogo
+          page="CoinBull"
+          toggleMenu={this.toggleMenu}
+          isOpen={this.state.activeMenu}
+          style={{ height: "5rem"}}
+        />
 
-          {/* Render collapsable burger menu for smaller screens*/}
-          <NavbarBurger
-            active={this.state.activeMenu}
-            toggleMenu={this.toggleMenu}
-          />
-          {/* Populate navbar with page items */}
-          <div className="navbar-start">{navbarItems}</div>
-        </div>
-      </nav>
-    );
-  }
+        {/* Render collapsable burger menu for smaller screens*/}
+        <NavbarBurger
+          active={this.state.activeMenu}
+          toggleMenu={this.toggleMenu}
+        />
+      </div>
+      <div
+        className={`navbar-menu ${this.state.activeMenu ? "is-active" : ""}`}
+      >
+        {/* Populate navbar with page items */}
+        <div className="navbar-start">{navbarItems}</div>
+
+        {/* Display signout button if user is logged in */}
+      </div>
+    </nav>
+  );
+}
 }
 
 Navbar.propTypes = {
