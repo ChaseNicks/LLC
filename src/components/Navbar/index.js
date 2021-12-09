@@ -1,28 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
 import "./styles/navbar.css";
 
-const NavbarLogo = (props) => (
-  <Link
-    className="navbar-item is-capitalized is-size-3"
-    onClick={props.isOpen ? props.toggleMenu : null}
-  >
-    <img src="tab-icon.png" alt="Digifie" style={{ width: '2rem', height: '10rem'}}/>
-  </Link>
-);
-
-
-const NavbarItem = (props) => (
-  <Link
-    className="navbar-item is-capitalized is-size-5 nav-item-styles"
-    to={`${props.page === "home" ? "/" : "/" + props.page}`}
-    style={{ textDecoration: "none" }}
-    onClick={props.toggleMenu}
-  >
-    {props.page}
-  </Link>
-);
 
 const NavbarBurger = (props) => (
   <button
@@ -37,6 +16,7 @@ const NavbarBurger = (props) => (
   </button>
 );
 
+
 export default class Navbar extends React.Component {
   state = {
     activeMenu: false,
@@ -47,44 +27,53 @@ export default class Navbar extends React.Component {
     });
   };
   render() {
-    let { pages = [], color } = this.props;
-
-    // Create navbar links for each page
-    let navbarItems = pages.map((page) => (
-      <NavbarItem page={page} key={page} toggleMenu={this.toggleMenu} />
-    ));
-
     return (
-      <nav className={`navbar is-${color}`}>
-      {/* Render clickable Logo */}
-      <div className="navbar-brand">
-        <NavbarLogo
-          page="CoinBull"
-          toggleMenu={this.toggleMenu}
-          isOpen={this.state.activeMenu}
-          style={{ height: "5rem"}}
-        />
+      <nav>
+        <div className="navbar-start">
+          <div className="navbar-brand">
+            <Link to="/home" className="is-capitalized is-size-3 logo" style={{ display: "flex"}}>
+              <img src="tab-icon.png" alt="Digifie" style={{ height: "4rem", width: "4rem"}}/>
+            </Link>
+            <NavbarBurger
+            active={this.state.activeMenu}
+            toggleMenu={this.toggleMenu}
+          />
+          </div>
 
-        {/* Render collapsable burger menu for smaller screens*/}
-        <NavbarBurger
-          active={this.state.activeMenu}
-          toggleMenu={this.toggleMenu}
-        />
-      </div>
-      <div
-        className={`navbar-menu ${this.state.activeMenu ? "is-active" : ""}`}
-      >
-        {/* Populate navbar with page items */}
-        <div className="navbar-start">{navbarItems}</div>
+          <div
+            className={`navbar-menu ${this.state.activeMenu ? "is-active" : ""}`}
+          >
+          <Link
+            className="navbar-item is-capitalized is-size-4 nav-item-styles"
+            to="/home"
+          >
+            Home
+          </Link>
 
-        {/* Display signout button if user is logged in */}
-      </div>
-    </nav>
-  );
+          <Link
+            className="navbar-item is-capitalized is-size-4 nav-item-styles"
+            to="/services"
+          >
+            Services
+          </Link>
+
+          <Link
+            className="navbar-item is-capitalized is-size-4 nav-item-styles"
+            to="/about"
+          >
+            About
+          </Link>
+
+          <Link
+            className="navbar-item is-capitalized is-size-4 nav-item-styles"
+            to="/contact"
+          >
+            Contact
+          </Link>
+          </div>
+
+        </div>
+      </nav>
+    );
+  }
 }
-}
-
-Navbar.propTypes = {
-  pages: PropTypes.array.isRequired,
-  color: PropTypes.string,
-};

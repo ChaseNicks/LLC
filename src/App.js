@@ -12,15 +12,15 @@ import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 
 
-const pages = ["home", "Services", "about", "contact"];
+// const pages = ["home", "Services", "about", "contact"];
 
 function App() {
   return (
       <Router>
         <div>
-            <Navbar pages={pages} />
+            <Navbar />
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/home">
                 <Home />
               </Route>
 
