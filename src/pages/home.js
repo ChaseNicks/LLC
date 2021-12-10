@@ -46,7 +46,7 @@ const Home = () => {
           />
           <h2 className="is-size-3" style={{ paddingBottom: ".7rem" }}>Custome Site</h2>
           <p className={"has-text-centered"} style={{ paddingBottom: "1.5rem", marginLeft: "3rem", marginRight: "3rem" }}>
-            Best in class site built out with React and modern architecture to
+            Best in class site built with React and other modern architecture to
             make your users experience better than ever
           </p>
         </div>
@@ -104,9 +104,8 @@ const Home = () => {
           />
           <h2 className="is-size-3" style={{ paddingBottom: ".7rem" }}>Logo Design</h2>
           <p className={"has-text-centered"} style={{ paddingBottom: "1.5rem", marginLeft: "3rem", marginRight: "3rem" }}>
-            Need away to store data that helps your business function day to day
-            or maybe even needing an existing database to perform faster? We got
-            you covered
+            In dire need for a logo upgrade, or just starting out and need a logo
+            that fits your business needs? 
           </p>
         </div>
         {/* Site Revamp*/}
@@ -118,10 +117,7 @@ const Home = () => {
           />
           <h2 className="is-size-3" style={{ paddingBottom: ".7rem" }}>Site Revamp</h2>
           <p className={"has-text-centered"} style={{ paddingBottom: "1.5rem", marginLeft: "3rem", marginRight: "3rem" }}>
-            Want more traffic driven to your website? Customers having a hard
-            time finding you on the internet? Let us enhance your organic
-            ranking and better your Google index with our best in class SEO
-            strategy
+            
           </p>
         </div>
       </div>
