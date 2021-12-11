@@ -89,7 +89,7 @@ const Home = () => {
             alt="Analytic Dashboards"
             style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem" }}
           />
-          <h2 className="is-size-3" style={{ paddingBottom: ".7rem" }}>Analytic Dashboards</h2>
+          <h2 className="is-size-3 has-text-centered" style={{ paddingBottom: ".7rem" }}>Analytic Dashboards</h2>
           <p className={"has-text-centered"} style={{ paddingBottom: "1.5rem", marginLeft: "3rem", marginRight: "3rem" }}>
             Best in class site built out with React and modern architecture to
             make your users experience better than ever
