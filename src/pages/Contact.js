@@ -100,7 +100,7 @@ const Contact = () => {
             >
               <label
                 className="c-lab is-flex is-flex-start"
-                style={{ paddingBottom: ".2rem" }}
+                style={{ paddingBottom: ".2rem", fontWeight: "bold" }}
               >
                 Email
               </label>
@@ -125,7 +125,7 @@ const Contact = () => {
             >
               <label
                 className="c-lab is-flex is-flex-start"
-                style={{ paddingBottom: ".2rem" }}
+                style={{ paddingBottom: ".2rem", fontWeight: "bold" }}
               >
                 Message
               </label>
@@ -174,6 +174,7 @@ const Contact = () => {
           style={{
             color: "white",
             paddingTop: "3.3rem",
+            fontWeight: "boldest"
           }}
         >
           FOLLOW US{" "}
