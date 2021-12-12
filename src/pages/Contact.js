@@ -45,7 +45,7 @@ const Contact = () => {
   return (
     <div className="">
       <h2
-        className="has-text-centered is-size-2"
+        className="has-text-centered is-size-1"
         style={{
           marginTop: "5rem",
           marginBottom: "1rem",
@@ -66,7 +66,7 @@ const Contact = () => {
       </div>
       <div className="is-flex is-justify-content-center">
         <p
-          className="has-text-centered is-size-5"
+          className="has-text-centered is-size-4"
           style={{
             maxWidth: "40rem",
             marginBottom: "3rem",
@@ -168,7 +168,7 @@ const Contact = () => {
 
       <div
         style={{
-          background: "#4C495D",
+          background: "black",
           height: "25rem",
           marginBottom: "4rem",
           marginTop: "4rem",
