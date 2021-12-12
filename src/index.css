@@ -26,3 +26,10 @@ button {
   background-color: #f9f7f7;
   color: black !important;
 }
+
+.linkedin {
+  height: 6.5rem;
+  width: 6.5rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
