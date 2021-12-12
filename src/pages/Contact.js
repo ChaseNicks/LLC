@@ -206,6 +206,30 @@ const Contact = () => {
           </a>
           </div>
       </div>
+      <h2
+        className="has-text-centered is-size-1"
+        style={{
+          marginTop: "5rem",
+          marginBottom: "1rem",
+          fontWeight: "boldest",
+        }}
+      >
+        How We Work{" "}
+      </h2>
+      <div className="is-flex is-justify-content-center" style={{}}>
+        <div
+          className="justify-content-center"
+          style={{
+            background: "linear-gradient(to right, #972EFF , #E197FD)",
+            height: ".18rem",
+            width: "5%",
+            marginBottom: "1.3rem",
+          }}
+        ></div>
+      </div>
+      <div className="is-flex is-justify-content-center">
+      
+      </div>
     </div>
   );
 };
