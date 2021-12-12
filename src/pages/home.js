@@ -7,6 +7,7 @@ import SEO from "../assets/seo.png";
 import Analytics from "../assets/analytics.png";
 import LogoDesign from "../assets/LogoDesign.png";
 import WebRevamp from "../assets/revamp.png";
+import ex1 from "../assets/ex1.png";
 
 const Home = () => {
   return (
@@ -26,23 +27,23 @@ const Home = () => {
             className="column"
             style={{ marginTop: "2rem", marginLeft: "1.5rem" }}
           >
-            <h1 className="is-size-2" style={{ paddingBottom: "2rem", fontWeight: "boldest"  }}>
+            <h1 className="is-size-2" style={{ paddingBottom: "2rem", fontWeight: "boldest" }}>
               Digital services
             </h1>
-            <p className="is-size-4" style={{ paddingBottom: "1.3rem", fontWeight: "bold" }}>
+            <p className="is-size-4 test" style={{ paddingBottom: "1.3rem", fontWeight: "bold" }}>
               Empowering individuals and business owners to utilize this digital
               age to benefit them most.
             </p>
             <button
               type="submit"
               className="button "
-              style={{ borderColor: "#972EFF ", fontWeight: "bold"  }}
+              style={{ borderColor: "#972EFF ", fontWeight: "bold" }}
             >
               Get A Free Quote
             </button>
           </div>
 
-          <div className="column" style={{ marginBottom: "-.43rem" }}>
+          <div className="column" style={{ marginBottom: ".3rem" }}>
             <img
               src={Sample}
               alt="Digifie"
@@ -234,6 +235,27 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      { /* Projects */}
+      <section style={{ paddingTop: "3rem"}}>
+
+        <div className="has-text-centered">
+          <h1 className="is-size-1 is-size-2-mobile">Some Of Our Work</h1>
+          <p className="is-size-4 is-size-5-mobile" style={{ paddingBottom: "3rem"}}> Here's a glemce at some projects we've worked on recently.</p>
+        </div>
+        <div className="columns is-mobile">
+          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" style={{ width: "fit-content"}}/></div>
+          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" /></div>
+          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" /></div>
+        </div>
+
+        <div className="columns is-mobile">
+          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" /></div>
+          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" /></div>
+          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" /></div>
+        </div>
+
+      </section>
     </div>
   );
 };
