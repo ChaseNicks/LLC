@@ -4,18 +4,18 @@ import { useForm, ValidationError } from "@formspree/react";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mbjwjgga");
-  if (state.succeeded) {
-    return (
-      <div
-        className="is-flex is-justify-content-center is-align-items-center"
-        style={{ height: "30rem" }}
-      >
-        <div>
-          <h1 className="ml2">Thank you for reaching out!</h1>
-        </div>
-      </div>
-    );
-  }
+  // if (state.succeeded) {
+  //   return (
+  //     <div
+  //       className="is-flex is-justify-content-center is-align-items-center"
+  //       style={{ height: "30rem" }}
+  //     >
+  //       <div>
+  //         <h1 className="ml2">Thank you for reaching out!</h1>
+  //       </div>
+  //     </div>
+  //   );
+  // }
 
   // const textWrapper = document.querySelector(".ml2");
   // textWrapper.innerHTML = textWrapper.textContent.replace(
@@ -59,32 +59,48 @@ const Contact = () => {
           style={{
             background: "linear-gradient(to right, #972EFF , #E197FD)",
             height: ".18rem",
-            width: "8%",
+            width: "5%",
             marginBottom: "1.3rem",
           }}
         ></div>
       </div>
       <div className="is-flex is-justify-content-center">
         <p
-          className="has-text-centered is-size-4"
+          className="has-text-centered is-size-5"
           style={{
             maxWidth: "40rem",
-            marginBottom: "1.6rem",
+            marginBottom: "3rem",
           }}
         >
           Let Digifie help you with all your digital needs. There are multiple
-          ways to contact us so choose which one is best for you. Lets start
+          ways to contact us, choose which one is best for you. Lets start
           building your dream site.{" "}
         </p>
       </div>
 
       <div
-        style={{ marginLeft: "3rem", marginRight: "3rem", display: "flex", justifyContent: "center" }}
+        style={{
+          marginLeft: "3rem",
+          marginRight: "3rem",
+          display: "flex",
+          justifyContent: "center",
+        }}
       >
-        <form onSubmit={handleSubmit} style={{ width: "40rem" }}>
+        <form
+          onSubmit={handleSubmit}
+          style={{ width: "29rem", marginBottom: "2.5rem" }}
+        >
           <div id="contact-form" className="">
-            <div className="field is-flex is-flex-shrink-1 is-flex-direction-column is-centered">
-              <label className="c-lab is-flex is-justify-content-center">Email</label>
+            <div
+              className="field is-flex is-flex-shrink-1 is-flex-direction-column is-centered"
+              style={{ paddingBottom: ".5rem" }}
+            >
+              <label
+                className="c-lab is-flex is-flex-start"
+                style={{ paddingBottom: ".2rem" }}
+              >
+                Email
+              </label>
               <div className="control ">
                 <input
                   className="input "
@@ -100,8 +116,16 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="field flex is-flex-shrink-1 is-flex-direction-column">
-              <label className="c-lab is-flex is-justify-content-center">Message</label>
+            <div
+              className="field flex is-flex-shrink-1 is-flex-direction-column"
+              style={{ paddingBottom: ".8rem" }}
+            >
+              <label
+                className="c-lab is-flex is-flex-start"
+                style={{ paddingBottom: ".2rem" }}
+              >
+                Message
+              </label>
               <div className="control">
                 <textarea
                   className="textarea"
@@ -122,24 +146,54 @@ const Contact = () => {
                   <button
                     type="submit"
                     disabled={state.submitting}
-                    className="button is-rounded"
+                    className="button"
                     style={{ borderColor: "#972EFF " }}
                   >
                     Submit
                   </button>
                 </div>
-                <div className="control">
+                {/* <div className="control">
                   <button
                     className="button is-rounded"
                     style={{ borderColor: "#972EFF " }}
                   >
                     Cancel
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
         </form>
+      </div>
+
+      <div
+        style={{
+          background: "#4C495D",
+          height: "25rem",
+          marginBottom: "4rem",
+          marginTop: "4rem",
+        }}
+      >
+        <h2
+          className="is-flex is-justify-content-center is-size-1"
+          style={{
+            color: "white",
+            paddingTop: "2rem"
+          }}
+        >
+          FOLLOW US{" "}
+        </h2>
+        <div className="is-flex is-justify-content-center" style={{}}>
+        <div
+          className="justify-content-center"
+          style={{
+            background: "linear-gradient(to right, #972EFF , #E197FD)",
+            height: ".18rem",
+            width: "5%",
+            marginTop: "1rem",
+          }}
+        ></div>
+      </div>
       </div>
     </div>
   );
