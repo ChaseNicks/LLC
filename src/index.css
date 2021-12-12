@@ -2,16 +2,20 @@
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
 }
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
+}
+
+button {
+  font-family: "Poppins", sans-serif !important;
 }
 
 .button {
@@ -22,14 +26,3 @@ h1 {
   background-color: #e197fd;
   color: white !important;
 }
-
-/* Anime js css */
-/* .ml2 {
-  font-weight: 900;
-  font-size: 3.5em;
-}
-
-.ml2 .letter {
-  display: inline-block;
-  line-height: 1em;
-} */
