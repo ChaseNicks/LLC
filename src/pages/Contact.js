@@ -43,7 +43,7 @@ const Contact = () => {
   //   });
 
   return (
-    <div className="is-align-items-center">
+    <div className="">
       <h2
         className="has-text-centered is-size-2"
         style={{
@@ -68,7 +68,7 @@ const Contact = () => {
         <p
           className="has-text-centered is-size-4"
           style={{
-            width: "49%",
+            maxWidth: "40rem",
             marginBottom: "1.6rem",
           }}
         >
@@ -79,12 +79,11 @@ const Contact = () => {
       </div>
 
       <div
-        className="container"
-        style={{ marginLeft: "3rem", marginRight: "3rem" }}
+        style={{ marginLeft: "3rem", marginRight: "3rem", display: "flex", justifyContent: "center" }}
       >
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} style={{ width: "40rem" }}>
           <div id="contact-form" className="">
-            <div className="field flex is-flex-shrink-1 is-flex-direction-column is-centered">
+            <div className="field is-flex is-flex-shrink-1 is-flex-direction-column is-centered">
               <label className="c-lab is-flex is-justify-content-center">Email</label>
               <div className="control ">
                 <input
