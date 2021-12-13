@@ -27,10 +27,16 @@ const Home = () => {
             className="column"
             style={{ marginTop: "2rem", marginLeft: "1.5rem" }}
           >
-            <h1 className="is-size-2" style={{ paddingBottom: "2rem", fontWeight: "boldest" }}>
-              Digital services
+            <h1
+              className="is-size-2"
+              style={{ paddingBottom: "2rem", fontWeight: "boldest" }}
+            >
+              Software Development Company
             </h1>
-            <p className="is-size-4 test" style={{ paddingBottom: "1.3rem", fontWeight: "bold" }}>
+            <p
+              className="is-size-4 test"
+              style={{ paddingBottom: "1.3rem", fontWeight: "bold" }}
+            >
               Empowering individuals and business owners to utilize this digital
               age to benefit them most.
             </p>
@@ -54,12 +60,33 @@ const Home = () => {
       </div>
 
       <div style={{ backgroundColor: "black", color: "white" }}>
-        <h2
-          className="has-text-centered is-size-2"
-          style={{ marginBottom: "5rem", paddingTop: "3rem" }}
+        <h1
+          className="has-text-centered is-size-1"
+          style={{
+            paddingTop: "2rem",
+            marginBottom: "1rem",
+            fontWeight: "boldest",
+          }}
+        >
+          SERVICES{" "}
+        </h1>
+        <div className="is-flex is-justify-content-center" style={{}}>
+          <div
+            className="justify-content-center"
+            style={{
+              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              height: ".18rem",
+              width: "5%",
+              marginBottom: "1.3rem",
+            }}
+          ></div>
+        </div>
+        <p
+          className="has-text-centered is-size-4"
+          style={{ marginBottom: "5rem", fontWeight: "bold", }}
         >
           Our expertise in the digital space delivers solutions.{" "}
-        </h2>
+        </p>
         <div
           className="columns"
           style={{
@@ -179,7 +206,9 @@ const Home = () => {
                 marginRight: "1rem",
               }}
             >
-              In today's world data drives almost all business decisions, but just raw data itself isnt enough. This is when dashboards with rich simplistic charts come into play.
+              In today's world data drives almost all business decisions, but
+              just raw data itself isnt enough. This is when dashboards with
+              rich simplistic charts come into play.
             </p>
           </div>
           {/* Logo Design */}
@@ -236,25 +265,66 @@ const Home = () => {
         </div>
       </div>
 
-      { /* Projects */}
-      <section style={{ paddingTop: "3rem"}}>
-
+      {/* Projects */}
+      <section style={{ paddingTop: "3rem" }}>
         <div className="has-text-centered">
-          <h1 className="is-size-1 is-size-2-mobile">Some Of Our Work</h1>
-          <p className="is-size-4 is-size-5-mobile" style={{ paddingBottom: "3rem"}}> Here's a glemce at some projects we've worked on recently.</p>
+          <h1
+            className="is-size-1 is-size-2-mobile"
+            style={{ fontWeight: "boldest", marginBottom: "1rem" }}
+          >
+            Our Work
+          </h1>
+          <div className="is-flex is-justify-content-center" style={{}}>
+            <div
+              className="justify-content-center"
+              style={{
+                background: "linear-gradient(to right, #972EFF , #E197FD)",
+                height: ".18rem",
+                width: "5%",
+                marginBottom: "1.3rem",
+              }}
+            ></div>
+          </div>
+          <div className="is-flex is-justify-content-center">
+            <p
+              className="is-size-5 is-size-5-mobile has-text-centered"
+              style={{
+                paddingBottom: "3rem",
+                maxWidth: "48rem",
+                fontWeight: "bold",
+              }}
+            >
+              {" "}
+              We have been lucky enough to work on some great software
+              development applications. Here is a glemce of some of those
+              projects, if you would like to see more of our work just send us
+              an email and we will be more than happy to share more samples.
+            </p>
+          </div>
         </div>
         <div className="columns is-mobile">
-          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" style={{ width: "fit-content"}}/></div>
-          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" /></div>
-          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" /></div>
+          <div className="column is-one-third is-half-mobile">
+            <img src={ex1} alt="" style={{ width: "fit-content" }} />
+          </div>
+          <div className="column is-one-third is-half-mobile">
+            <img src={ex1} alt="" />
+          </div>
+          <div className="column is-one-third is-half-mobile">
+            <img src={ex1} alt="" />
+          </div>
         </div>
 
         <div className="columns is-mobile">
-          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" /></div>
-          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" /></div>
-          <div className="column is-one-third is-half-mobile"><img src={ex1} alt="" /></div>
+          <div className="column is-one-third is-half-mobile">
+            <img src={ex1} alt="" />
+          </div>
+          <div className="column is-one-third is-half-mobile">
+            <img src={ex1} alt="" />
+          </div>
+          <div className="column is-one-third is-half-mobile">
+            <img src={ex1} alt="" />
+          </div>
         </div>
-
       </section>
     </div>
   );
