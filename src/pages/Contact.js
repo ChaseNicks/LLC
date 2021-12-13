@@ -1,6 +1,6 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-// import anime from "animejs/lib/anime.es.js";
+// import anime from "animejs";
 import linkedin from "../assets/linkedin.png";
 
 const Contact = () => {
