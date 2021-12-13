@@ -270,7 +270,7 @@ const Home = () => {
         <div className="has-text-centered">
           <h1
             className="is-size-1 is-size-2-mobile"
-            style={{ fontWeight: "boldest" }}
+            style={{ fontWeight: "boldest", marginBottom: "1rem" }}
           >
             Our Work
           </h1>
