@@ -27,6 +27,12 @@ button {
   color: black !important;
 }
 
+.linkedin {
+  height: 6.5rem;
+  width: 6.5rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
 
 .projects .project-grid figure {
   position: relative;
@@ -44,3 +50,4 @@ button {
   margin-right: 0 !important;
   margin-top: 0 !important;
 }
+

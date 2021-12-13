@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-// import anime from "animejs/lib/anime.es.js";
+// import anime from "animejs";
+import linkedin from "../assets/linkedin.png";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mbjwjgga");
@@ -49,6 +50,7 @@ const Contact = () => {
         style={{
           marginTop: "5rem",
           marginBottom: "1rem",
+          fontWeight: "boldest",
         }}
       >
         CONTACT US{" "}
@@ -70,11 +72,12 @@ const Contact = () => {
           style={{
             maxWidth: "40rem",
             marginBottom: "3rem",
+            fontWeight: "bold",
           }}
         >
           Let Digifie help you with all your digital needs. There are multiple
           ways to contact us, choose which one is best for you. Lets start
-          building your dream site.{" "}
+          building your dream website.{" "}
         </p>
       </div>
 
@@ -97,7 +100,7 @@ const Contact = () => {
             >
               <label
                 className="c-lab is-flex is-flex-start"
-                style={{ paddingBottom: ".2rem" }}
+                style={{ paddingBottom: ".2rem", fontWeight: "bold" }}
               >
                 Email
               </label>
@@ -122,7 +125,7 @@ const Contact = () => {
             >
               <label
                 className="c-lab is-flex is-flex-start"
-                style={{ paddingBottom: ".2rem" }}
+                style={{ paddingBottom: ".2rem", fontWeight: "bold" }}
               >
                 Message
               </label>
@@ -147,19 +150,11 @@ const Contact = () => {
                     type="submit"
                     disabled={state.submitting}
                     className="button"
-                    style={{ borderColor: "#972EFF " }}
+                    style={{ borderColor: "#972EFF", fontWeight: "bold" }}
                   >
                     Submit
                   </button>
                 </div>
-                {/* <div className="control">
-                  <button
-                    className="button is-rounded"
-                    style={{ borderColor: "#972EFF " }}
-                  >
-                    Cancel
-                  </button>
-                </div> */}
               </div>
             </div>
           </div>
@@ -178,22 +173,62 @@ const Contact = () => {
           className="is-flex is-justify-content-center is-size-1"
           style={{
             color: "white",
-            paddingTop: "2rem"
+            paddingTop: "3.3rem",
+            fontWeight: "boldest"
           }}
         >
           FOLLOW US{" "}
         </h2>
         <div className="is-flex is-justify-content-center" style={{}}>
+          <div
+            className="justify-content-center"
+            style={{
+              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              height: ".18rem",
+              width: "5%",
+              marginTop: "1rem",
+              marginBottom: "3.8rem",
+            }}
+          ></div>
+        </div>
+        <div className="is-flex is-justify-content-center">
+        <a
+            href="https://www.linkedin.com/company/digifie/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className="linkedin"
+              style={{ backgroundColor: "white" }}
+              src={linkedin}
+              alt="LinkedIn"
+            />
+          </a>
+          </div>
+      </div>
+      <h2
+        className="has-text-centered is-size-1"
+        style={{
+          marginTop: "5rem",
+          marginBottom: "1rem",
+          fontWeight: "boldest",
+        }}
+      >
+        How We Work{" "}
+      </h2>
+      <div className="is-flex is-justify-content-center" style={{}}>
         <div
           className="justify-content-center"
           style={{
             background: "linear-gradient(to right, #972EFF , #E197FD)",
             height: ".18rem",
             width: "5%",
-            marginTop: "1rem",
+            marginBottom: "1.3rem",
           }}
         ></div>
       </div>
+      <div className="is-flex is-justify-content-center">
+      
       </div>
     </div>
   );
