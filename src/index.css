@@ -33,3 +33,21 @@ button {
   margin-left: 1.2rem;
   margin-bottom: 1rem;
 }
+
+.projects .project-grid figure {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  /* box-shadow:  0px 0px 29px -2px white; */
+}
+
+.column {
+  padding: 0 !important;
+}
+
+.columns {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+}
+
