@@ -77,7 +77,7 @@ const Contact = () => {
         >
           Let Digifie help you with all your digital needs. There are multiple
           ways to contact us, choose which one is best for you. Lets start
-          building your dream site.{" "}
+          building your dream website.{" "}
         </p>
       </div>
 
