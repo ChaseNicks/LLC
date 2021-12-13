@@ -31,7 +31,7 @@ const Home = () => {
               className="is-size-2"
               style={{ paddingBottom: "2rem", fontWeight: "boldest" }}
             >
-              Digital services
+              Software Development Company
             </h1>
             <p
               className="is-size-4 test"
@@ -60,12 +60,33 @@ const Home = () => {
       </div>
 
       <div style={{ backgroundColor: "black", color: "white" }}>
-        <h2
-          className="has-text-centered is-size-2"
-          style={{ marginBottom: "5rem", paddingTop: "3rem" }}
+        <h1
+          className="has-text-centered is-size-1"
+          style={{
+            paddingTop: "2rem",
+            marginBottom: "1rem",
+            fontWeight: "boldest",
+          }}
+        >
+          SERVICES{" "}
+        </h1>
+        <div className="is-flex is-justify-content-center" style={{}}>
+          <div
+            className="justify-content-center"
+            style={{
+              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              height: ".18rem",
+              width: "5%",
+              marginBottom: "1.3rem",
+            }}
+          ></div>
+        </div>
+        <p
+          className="has-text-centered is-size-4"
+          style={{ marginBottom: "5rem", fontWeight: "bold", }}
         >
           Our expertise in the digital space delivers solutions.{" "}
-        </h2>
+        </p>
         <div
           className="columns"
           style={{
