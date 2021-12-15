@@ -2,6 +2,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 // import anime from "animejs";
 import linkedin from "../assets/linkedin.png";
+import Sample from "../assets/sample.jpeg";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mbjwjgga");
@@ -73,6 +74,7 @@ const Contact = () => {
             maxWidth: "40rem",
             marginBottom: "3rem",
             fontWeight: "bold",
+            paddingRight: ".8rem",
           }}
         >
           Let Digifie help you with all your digital needs. There are multiple
@@ -174,7 +176,7 @@ const Contact = () => {
           style={{
             color: "white",
             paddingTop: "3.3rem",
-            fontWeight: "boldest"
+            fontWeight: "boldest",
           }}
         >
           FOLLOW US{" "}
@@ -192,7 +194,7 @@ const Contact = () => {
           ></div>
         </div>
         <div className="is-flex is-justify-content-center">
-        <a
+          <a
             href="https://www.linkedin.com/company/digifie/"
             target="_blank"
             rel="noreferrer"
@@ -204,7 +206,7 @@ const Contact = () => {
               alt="LinkedIn"
             />
           </a>
-          </div>
+        </div>
       </div>
       <h2
         className="has-text-centered is-size-1"
@@ -214,7 +216,7 @@ const Contact = () => {
           fontWeight: "boldest",
         }}
       >
-        THE PROCESS{" "}
+        LOCATIONS{" "}
       </h2>
       <div className="is-flex is-justify-content-center" style={{}}>
         <div
@@ -223,12 +225,65 @@ const Contact = () => {
             background: "linear-gradient(to right, #972EFF , #E197FD)",
             height: ".18rem",
             width: "5%",
-            marginBottom: "1.3rem",
+            marginBottom: "1rem",
           }}
         ></div>
       </div>
-      <div className="is-flex is-justify-content-center">
-      
+      <div className="is-flex is-justify-content-center is-half">
+        <div className="columns">
+          <div className="column" style={{ marginLeft: "1rem" }}>
+            <h1
+              className="has-text-centered is-size-1"
+              style={{
+                marginBottom: "1rem",
+                fontWeight: "boldest",
+                paddingTop: "2rem"
+              }}
+            >
+              Dallas{" "}
+            </h1>
+            <p
+              className="is-size-4 has-text-centered test"
+              style={{
+                paddingBottom: "1.3rem",
+                marginLeft: "2rem",
+                marginRight: "2rem",
+                fontWeight: "bold",
+              }}
+            >
+              Address
+            </p>
+            <p
+              className="is-size-4 has-text-centered test"
+              style={{
+                paddingBottom: "1.3rem",
+                marginLeft: "2rem",
+                marginRight: "2rem",
+                fontWeight: "bold",
+              }}
+            >
+              Email
+            </p>
+            <p
+              className="is-size-4 has-text-centered test"
+              style={{
+                paddingBottom: "1.3rem",
+                marginLeft: "2rem",
+                marginRight: "2rem",
+                fontWeight: "bold",
+              }}
+            >
+              Phone
+            </p>
+          </div>
+          <div className="column" style={{ marginBottom: ".3rem" }}>
+            <img
+              src={Sample}
+              alt="Digifie"
+              style={{ height: "20rem", width: "50rem" }}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

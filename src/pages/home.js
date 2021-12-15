@@ -25,7 +25,7 @@ const Home = () => {
         <div className="columns">
           <div
             className="column"
-            style={{ marginTop: "2rem", marginLeft: "1.5rem" }}
+            style={{ marginTop: "2rem", marginLeft: "1.2rem" }}
           >
             <h1
               className="is-size-2"
