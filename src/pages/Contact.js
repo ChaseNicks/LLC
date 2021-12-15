@@ -214,7 +214,7 @@ const Contact = () => {
           fontWeight: "boldest",
         }}
       >
-        How We Work{" "}
+        THE PROCESS{" "}
       </h2>
       <div className="is-flex is-justify-content-center" style={{}}>
         <div

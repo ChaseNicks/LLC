@@ -40,6 +40,7 @@ const Home = () => {
               Empowering individuals and business owners to utilize this digital
               age to benefit them most.
             </p>
+            <a href="/contact">
             <button
               type="submit"
               className="button "
@@ -47,6 +48,7 @@ const Home = () => {
             >
               Get A Free Quote
             </button>
+            </a>
           </div>
 
           <div className="column" style={{ marginBottom: ".3rem" }}>
