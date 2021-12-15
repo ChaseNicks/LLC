@@ -267,7 +267,110 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Projects */}
+      {/* Work Timeline */}
+    <div className="container" style={{ marginTop: "8rem"}}>
+
+    <div className="has-text-centered">
+          <h1
+            className="is-size-1 is-size-2-mobile"
+            style={{ fontWeight: "boldest", marginBottom: "1rem" }}
+          >
+            Our Process
+          </h1>
+          <div className="is-flex is-justify-content-center" style={{}}>
+            <div
+              className="justify-content-center"
+              style={{
+                background: "linear-gradient(to right, #972EFF , #E197FD)",
+                height: ".18rem",
+                width: "5%",
+                marginBottom: "1.3rem",
+              }}
+            ></div>
+          </div>
+          <div className="is-flex is-justify-content-center">
+            <p
+              className="is-size-5 is-size-5-mobile has-text-centered"
+              style={{
+                paddingBottom: "3rem",
+                maxWidth: "48rem",
+                fontWeight: "bold",
+              }}
+            >
+              {" "}
+              We have been lucky enough to work on some great software
+              development applications. Here is a glemce of some of those
+              projects, if you would like to see more of our work just send us
+              an email and we will be more than happy to share more samples.
+            </p>
+          </div>
+        </div>
+
+      <div className="timeline">
+        <div className="conta left">
+<div className="date">Start</div>
+          <i className="icon fa fa-home"></i>
+          <div className="content">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>
+              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+            </p>
+          </div>
+        </div>
+        <div className="conta right">
+
+          <i className="icon fa fa-gift"></i>
+          <div className="content">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>
+              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+            </p>
+          </div>
+        </div>
+        <div className="conta left">
+
+          <i className="icon fa fa-user"></i>
+          <div className="content">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>
+              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+            </p>
+          </div>
+        </div>
+        <div className="conta right">
+
+          <i className="icon fa fa-fire"></i>
+          <div className="content">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>
+              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+            </p>
+          </div>
+        </div>
+        <div className="conta left">
+
+          <i className="icon fa fa-cog"></i>
+          <div className="content">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>
+              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+            </p>
+          </div>
+        </div>
+        <div className="conta right">
+        <div className="date">Finish</div>
+          <i className="icon fa fa-certificate"></i>
+          <div className="content">
+            <h2>className ipsum dolor sit amet</h2>
+            <p>
+              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      {/* Our Work */}
       <section style={{ paddingTop: "3rem" }}>
         <div className="has-text-centered">
           <h1
