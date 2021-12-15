@@ -2,7 +2,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 // import anime from "animejs";
 import linkedin from "../assets/linkedin.png";
-import Sample from "../assets/sample.jpeg";
+import Iframe from 'react-iframe'
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mbjwjgga");
@@ -175,7 +175,7 @@ const Contact = () => {
           className="is-flex is-justify-content-center is-size-1"
           style={{
             color: "white",
-            paddingTop: "3.3rem",
+            paddingTop: "3.8rem",
             fontWeight: "boldest",
           }}
         >
@@ -189,7 +189,7 @@ const Contact = () => {
               height: ".18rem",
               width: "5%",
               marginTop: "1rem",
-              marginBottom: "3.8rem",
+              marginBottom: "2rem",
             }}
           ></div>
         </div>
@@ -225,13 +225,13 @@ const Contact = () => {
             background: "linear-gradient(to right, #972EFF , #E197FD)",
             height: ".18rem",
             width: "5%",
-            marginBottom: "1rem",
+            marginBottom: "2rem",
           }}
         ></div>
       </div>
-      <div className="is-flex is-justify-content-center is-half">
+      <div className="is-justify-content-center">
         <div className="columns">
-          <div className="column" style={{ marginLeft: "1rem" }}>
+          <div className="column">
             <h1
               className="has-text-centered is-size-1"
               style={{
@@ -276,12 +276,8 @@ const Contact = () => {
               Phone
             </p>
           </div>
-          <div className="column" style={{ marginBottom: ".3rem" }}>
-            <img
-              src={Sample}
-              alt="Digifie"
-              style={{ height: "20rem", width: "50rem" }}
-            />
+          <div className="column" style={{ marginBottom: "1rem", maxWidth: "450px" }}>
+            <Iframe title="myFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83289.7917193692!2d-96.83036669157848!3d32.75671924500116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1639599293035!5m2!1sen!2sus" width="100%" height="285" allowfullscreen="" loading="lazy" className="map"></Iframe>
           </div>
         </div>
       </div>
