@@ -2,7 +2,7 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 // import anime from "animejs";
 import linkedin from "../assets/linkedin.png";
-import Iframe from 'react-iframe'
+import Iframe from "react-iframe";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mbjwjgga");
@@ -237,7 +237,6 @@ const Contact = () => {
               style={{
                 marginBottom: "1rem",
                 fontWeight: "boldest",
-                paddingTop: "2rem"
               }}
             >
               Dallas{" "}
@@ -276,8 +275,20 @@ const Contact = () => {
               Phone
             </p>
           </div>
-          <div className="column" style={{ marginBottom: "5rem", maxWidth: "500px" }}>
-            <Iframe title="myFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83289.7917193692!2d-96.83036669157848!3d32.75671924500116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1639599293035!5m2!1sen!2sus" width="100%" height="285" allowfullscreen="" loading="lazy" className="map"></Iframe>
+          <div className="column is-centered">
+            <div
+              style={{ marginBottom: "5rem", maxWidth: "450px", marginRight: ".5rem", marginLeft: ".5rem" }}
+            >
+              <Iframe
+                title="myFrame"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83289.7917193692!2d-96.83036669157848!3d32.75671924500116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1639599293035!5m2!1sen!2sus"
+                width="100%"
+                height="285"
+                allowfullscreen=""
+                loading="lazy"
+                className="map"
+              ></Iframe>
+            </div>
           </div>
         </div>
       </div>
