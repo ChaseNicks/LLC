@@ -239,7 +239,7 @@ const Contact = () => {
                 fontWeight: "boldest",
               }}
             >
-              Dallas{" "}
+              Dallas, TX{" "}
             </h1>
             <p
               className="is-size-4 has-text-centered test"
