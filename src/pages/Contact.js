@@ -166,7 +166,7 @@ const Contact = () => {
       <div
         style={{
           background: "black",
-          height: "25rem",
+          height: "22rem",
           marginBottom: "4rem",
           marginTop: "4rem",
         }}
@@ -239,7 +239,7 @@ const Contact = () => {
                 fontWeight: "boldest",
               }}
             >
-              Dallas{" "}
+              Dallas, TX{" "}
             </h1>
             <p
               className="is-size-4 has-text-centered test"

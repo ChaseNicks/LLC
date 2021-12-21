@@ -9,7 +9,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -40,6 +40,7 @@ function App() {
 
               <Route component={NoMatch} />
             </Switch>
+          <Footer />
         </div>
       </Router>
   );
