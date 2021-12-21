@@ -250,7 +250,7 @@ const Contact = () => {
                 fontWeight: "bold",
               }}
             >
-              Address
+              Address: <b className="has-text-weight-medium">North Akard Street</b>
             </p>
             <p
               className="is-size-4 has-text-centered test"
@@ -261,7 +261,7 @@ const Contact = () => {
                 fontWeight: "bold",
               }}
             >
-              Email
+              Email: <b className="has-text-weight-medium">digifie@support.com</b>
             </p>
             <p
               className="is-size-4 has-text-centered test"
@@ -272,7 +272,7 @@ const Contact = () => {
                 fontWeight: "bold",
               }}
             >
-              Phone
+              Phone: <b className="has-text-weight-medium">(336)555-6566</b>
             </p>
           </div>
           <div className="column is-centered">
