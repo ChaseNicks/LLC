@@ -407,26 +407,23 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="columns is-mobile">
-          <div className="column is-one-third is-half-mobile">
-            <img src={ex1} alt="" style={{ width: "fit-content" }} />
+        <div className="columns is-mobile is-flex-wrap-wrap">
+          <div className="column is-one-third is-half-mobile" >
+            <img src={ex1} alt=""  />
           </div>
-          <div className="column is-one-third is-half-mobile">
+          <div className="column is-one-third is-half-mobile" >
             <img src={ex1} alt="" />
           </div>
-          <div className="column is-one-third is-half-mobile">
+          <div className="column is-one-third is-half-mobile" >
             <img src={ex1} alt="" />
           </div>
-        </div>
-
-        <div className="columns is-mobile">
-          <div className="column is-one-third is-half-mobile">
+          <div className="column is-one-third is-half-mobile" >
             <img src={ex1} alt="" />
           </div>
-          <div className="column is-one-third is-half-mobile">
+          <div className="column is-one-third is-half-mobile" >
             <img src={ex1} alt="" />
           </div>
-          <div className="column is-one-third is-half-mobile">
+          <div className="column is-one-third is-half-mobile" >
             <img src={ex1} alt="" />
           </div>
         </div>

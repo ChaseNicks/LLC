@@ -4,21 +4,21 @@ import "./styles/footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer" style={{ background: "#555155" }}>
+    <footer className="footer" style={{ background: "black" }}>
       <div>
-        <div className="footer-brand" style={{ paddingLeft: "6.7rem" }}>
+        <div className="footer-brand">
           <Link
             to="/"
             className="is-size-3 logo"
-            style={{ display: "flex", width: "fit-content" }}
+            style={{ display: "flex", justifyContent: "center" }}
           >
             <img
               src="tab-icon.png"
               alt="Digifie"
-              style={{ height: "2.5rem", width: "2.5rem" }}
+              style={{ height: "3.5rem", width: "3.5rem" }}
             />
             <p
-              className="is-size-4"
+              className="is-size-3"
               style={{
                 color: "white",
                 paddingLeft: ".2rem",
@@ -35,13 +35,13 @@ const Footer = () => {
             style={{
               background: "linear-gradient(to right, #972EFF , #E197FD)",
               height: ".05rem",
-              width: "85%",
+              width: "50%",
               marginTop: "1rem",
             }}
           ></div>
         </div>
         <p className="has-text-centered is-size-4" style={{ color: "white", paddingTop: "1.5rem" }}>
-          © 2021. TheRoaringGallery.com | Designed by Chase Nicks & Leland Hayes
+          © 2021 | digifie.com | Founded by Chase Nicks & Leland Hayes
         </p>
       </div>
     </footer>

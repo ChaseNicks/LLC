@@ -129,7 +129,7 @@ button {
   text-align: center;
   font-size: 14px;
   font-weight: bold;
-  color: #006e51;
+  color: black;
   text-transform: uppercase;
   letter-spacing: 1px;
   z-index: 1;
@@ -155,7 +155,7 @@ button {
   border-radius: 40px;
   text-align: center;
   font-size: 18px;
-  color: #006e51;
+  color: black;
   z-index: 1;
 }
 
