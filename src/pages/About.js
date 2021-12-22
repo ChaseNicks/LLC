@@ -21,7 +21,7 @@ const About = () => {
               style={{
                 background: "linear-gradient(to right, #972EFF , #E197FD)",
                 height: ".18rem",
-                width: "6.7%",
+                width: "9%",
                 marginBottom: "1rem",
               }}
             ></div>
@@ -58,7 +58,7 @@ const About = () => {
               style={{
                 background: "linear-gradient(to right, #972EFF , #E197FD)",
                 height: ".18rem",
-                width: "6.7%",
+                width: "9%",
                 marginBottom: "1rem",
               }}
             ></div>
@@ -68,7 +68,7 @@ const About = () => {
               className="has-text-centered is-size-4"
               style={{
                 maxWidth: "40rem",
-                marginBottom: "5rem",
+                marginBottom: "3rem",
                 fontWeight: "bold",
               }}
             >
@@ -77,6 +77,37 @@ const About = () => {
               Lets start building your dream website.{" "}
             </p>
           </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          background: "#FCFCFC",
+          height: "30rem",
+          marginBottom: "2.5rem",
+          marginTop: "2.5rem",
+        }}
+      >
+        <h2
+          className="has-text-centered is-size-1"
+          style={{
+            paddingTop: "1.4rem",
+            marginBottom: "1rem",
+            fontWeight: "boldest",
+          }}
+        >
+         OUR VALUES{" "}
+        </h2>
+        <div className="is-flex is-justify-content-center" style={{}}>
+          <div
+            className="justify-content-center"
+            style={{
+              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              height: ".18rem",
+              width: "5%",
+              marginBottom: "1rem",
+            }}
+          ></div>
         </div>
       </div>
     </div>
