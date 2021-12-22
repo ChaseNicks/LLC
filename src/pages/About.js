@@ -83,7 +83,7 @@ const About = () => {
       <div
         style={{
           background: "#FCFCFC",
-          height: "30rem",
+          height: "40rem",
           marginBottom: "2.5rem",
           marginTop: "2.5rem",
         }}
@@ -110,20 +110,20 @@ const About = () => {
           ></div>
         </div>
         <div className="columns">
-          <div className="column box is-half is-flex is-flex-direction-column" style={{ marginRight: "1rem" }}>
+          <div className="column box is-one-third is-flex" style={{ marginRight: "1rem" }}>
             <div className="">
               <h2 className="has-text-centered is-size-2" style={{ paddingBottom: ".7rem" }}>Trust</h2>
-              <p className="has-text-centered is-size-5" style={{ paddingBottom: ".7rem" }}>
+              <p className="has-text-left is-size-5" style={{ paddingBottom: ".7rem", paddingLeft: "1rem", paddingRight: "1rem" }}>
                 We focus on regular communication and transparency from the
                 first day of cooperation. You will get full access to Jira and
                 Repo, regular reports, and invitations to all the meetings.
               </p>
             </div>
           </div>
-          <div className="column box is-half is-flex is-flex-direction-column" style={{ paddingLeft: "2rem" }}>
+          <div className="column box is-one-third is-flex" style={{}}>
             <div className="">
               <h2 className="has-text-centered is-size-2" style={{ paddingBottom: ".7rem" }}>Quality</h2>
-              <p className="has-text-centered is-size-5" style={{ paddingBottom: ".7rem" }}>
+              <p className="has-text-left is-size-5" style={{ paddingBottom: ".7rem", paddingLeft: "1rem", paddingRight: "1rem" }}>
                 We focus on regular communication and transparency from the
                 first day of cooperation. You will get full access to Jira and
                 Repo, regular reports, and invitations to all the meetings.
