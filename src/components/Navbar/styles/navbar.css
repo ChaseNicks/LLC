@@ -9,3 +9,8 @@ nav {
 .navbar-item {
   margin-right: 1rem;
 }
+
+.nav-item-styles:hover {
+  border-bottom: 5px solid #972EFF;
+  color: black !important;
+}
