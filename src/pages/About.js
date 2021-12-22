@@ -96,7 +96,60 @@ const About = () => {
             fontWeight: "boldest",
           }}
         >
-         OUR VALUES{" "}
+          OUR VALUES{" "}
+        </h2>
+        <div className="is-flex is-justify-content-center" style={{}}>
+          <div
+            className="justify-content-center"
+            style={{
+              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              height: ".18rem",
+              width: "5%",
+              marginBottom: "2rem",
+            }}
+          ></div>
+        </div>
+        <div className="columns">
+          <div className="column box is-half is-flex is-flex-direction-column" style={{ marginRight: "1rem" }}>
+            <div className="">
+              <h2 className="has-text-centered is-size-2" style={{ paddingBottom: ".7rem" }}>Trust</h2>
+              <p className="has-text-centered is-size-5" style={{ paddingBottom: ".7rem" }}>
+                We focus on regular communication and transparency from the
+                first day of cooperation. You will get full access to Jira and
+                Repo, regular reports, and invitations to all the meetings.
+              </p>
+            </div>
+          </div>
+          <div className="column box is-half is-flex is-flex-direction-column" style={{ paddingLeft: "2rem" }}>
+            <div className="">
+              <h2 className="has-text-centered is-size-2" style={{ paddingBottom: ".7rem" }}>Quality</h2>
+              <p className="has-text-centered is-size-5" style={{ paddingBottom: ".7rem" }}>
+                We focus on regular communication and transparency from the
+                first day of cooperation. You will get full access to Jira and
+                Repo, regular reports, and invitations to all the meetings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        style={{
+          background: "white",
+          height: "30rem",
+          marginBottom: "2.5rem",
+          marginTop: "2.5rem",
+        }}
+      >
+        <h2
+          className="has-text-centered is-size-1"
+          style={{
+            paddingTop: "1.4rem",
+            marginBottom: "1rem",
+            fontWeight: "boldest",
+          }}
+        >
+          FOUNDERS{" "}
         </h2>
         <div className="is-flex is-justify-content-center" style={{}}>
           <div
