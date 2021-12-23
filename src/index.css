@@ -237,3 +237,19 @@ button {
     border-radius: 500px 0 0 500px;
   }
 }
+
+.box-trust:hover {
+  border-bottom: 5px solid #972eff;
+}
+
+.box-quality:hover {
+  border-bottom: 5px solid #972eff;
+}
+
+.box-transparency:hover {
+  border-bottom: 5px solid #972eff;
+}
+
+.box:not(:last-child) {
+  margin-bottom: 0 !important;
+}
