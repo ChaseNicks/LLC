@@ -238,18 +238,6 @@ button {
   }
 }
 
-.box-trust:hover {
-  border-bottom: 5px solid #972eff;
-}
-
-.box-quality:hover {
-  border-bottom: 5px solid #972eff;
-}
-
-.box-transparency:hover {
-  border-bottom: 5px solid #972eff;
-}
-
 .box:not(:last-child) {
   margin-bottom: 0 !important;
 }

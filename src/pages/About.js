@@ -4,10 +4,11 @@ const About = () => {
   return (
     <div>
       <div
+        className="container is-fluid"
         style={{
-          height: "fit-content",
+          minHeight: "29.5rem",
           marginBottom: "2.5rem",
-          marginTop: "6rem",
+          marginTop: "4.5rem",
         }}
       >
         <div className="columns">
@@ -89,9 +90,10 @@ const About = () => {
       </div>
 
       <div
+        className="container is-fluid"
         style={{
-          background: "#FCFCFC",
-          height: "fit-content",
+          background: "linear-gradient(to right, #29C5F6 , #1260CC)",
+          minHeight: "36.5rem",
           marginBottom: "2.5rem",
           marginTop: "2.5rem",
         }}
@@ -102,6 +104,7 @@ const About = () => {
             paddingTop: "1.4rem",
             marginBottom: "1rem",
             fontWeight: "boldest",
+            color: "white"
           }}
         >
           OUR VALUES{" "}
@@ -110,14 +113,14 @@ const About = () => {
           <div
             className="justify-content-center"
             style={{
-              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              background: "#424747",
               height: ".18rem",
               width: "5%",
               marginBottom: "2rem",
             }}
           ></div>
         </div>
-        <div style={{ marginLeft: "1rem", marginRight: "1rem" }}>
+        <div style={{ marginLeft: "1rem", marginRight: "1.1rem" }}>
           <div className="columns">
             <div
               className="column box is-half is-flex box-trust"
@@ -126,7 +129,7 @@ const About = () => {
               <div className="">
                 <h2
                   className="has-text-centered is-size-2"
-                  style={{ paddingBottom: ".7rem" }}
+                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
                 >
                   Trust
                 </h2>
@@ -148,7 +151,7 @@ const About = () => {
               <div className="">
                 <h2
                   className="has-text-centered is-size-2"
-                  style={{ paddingBottom: ".7rem" }}
+                  style={{ paddingBottom: ".7rem",fontWeight: "boldest" }}
                 >
                   Quality
                 </h2>
@@ -175,9 +178,9 @@ const About = () => {
               <div className="">
                 <h2
                   className="has-text-centered is-size-2"
-                  style={{ paddingBottom: ".7rem" }}
+                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
                 >
-                  Trust
+                  Transparency
                 </h2>
                 <p
                   className="has-text-left is-size-5"
@@ -197,7 +200,7 @@ const About = () => {
               <div className="">
                 <h2
                   className="has-text-centered is-size-2"
-                  style={{ paddingBottom: ".7rem" }}
+                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
                 >
                   Quality
                 </h2>
