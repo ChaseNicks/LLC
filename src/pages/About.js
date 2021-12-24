@@ -1,4 +1,6 @@
 import React from "react";
+import chase from "../assets/chase.jpg";
+import leland from "../assets/leland.jpg";
 
 const About = () => {
   return (
@@ -222,7 +224,7 @@ const About = () => {
       <div
         style={{
           background: "white",
-          height: "30rem",
+          height: "fit-content",
           marginBottom: "2.5rem",
           marginTop: "2.5rem",
         }}
@@ -248,6 +250,39 @@ const About = () => {
             }}
           ></div>
         </div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <div className="art-container columns is-desktop is-justify-content-center" style={{ marginRight: "1.5rem", marginLeft: "1.5rem", columnGap: "10rem"}}>
+            <div class="column is-two-fifths" >
+              <div className="founder">
+                <img className="pic" src={chase} alt="asdasd" />
+              </div>
+              <h2 id="aboutme-justin">Co-Founder | Chase Nicks</h2>
+              <p id="aboutme-para">Writing an ‘About Me’ page or section for yourself is never easy. However,
+                the good
+                news is if you
+                follow the formula and tips below, you should be able to generate an engaging ‘About Me’
+                statement
+                without too much of a
+                struggle. Here’s how to write an ‘About Me’ page you can be proud of.</p>
+            </div>
+
+            <div className="column is-two-fifths">
+              <div className="founder">
+                <img className="pic" src={leland} alt="asdasd" />
+              </div>
+              <h2 id="aboutme-2">Co-Founder | Leland Hayes</h2>
+              <p id="aboutme-para">Writing an ‘About Me’ page or section for yourself is never easy. However,
+                the good
+                news is if you
+                follow the formula and tips below, you should be able to generate an engaging ‘About Me’
+                statement
+                without too much of a
+                struggle. Here’s how to write an ‘About Me’ page you can be proud of.</p>
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
   );
