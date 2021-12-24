@@ -66,7 +66,7 @@ const Home = () => {
           className="has-text-centered is-size-1"
           style={{
             paddingTop: "2rem",
-            marginBottom: "1rem",
+            marginBottom: ".7rem",
             fontWeight: "boldest",
           }}
         >
@@ -273,7 +273,7 @@ const Home = () => {
     <div className="has-text-centered">
           <h1
             className="is-size-1 is-size-2-mobile"
-            style={{ fontWeight: "boldest", marginBottom: "1rem" }}
+            style={{ fontWeight: "boldest", marginBottom: ".6rem" }}
           >
             Our Process
           </h1>
@@ -375,7 +375,7 @@ const Home = () => {
         <div className="has-text-centered">
           <h1
             className="is-size-1 is-size-2-mobile"
-            style={{ fontWeight: "boldest", marginBottom: "1rem" }}
+            style={{ fontWeight: "boldest", marginBottom: ".7rem" }}
           >
             Our Work
           </h1>

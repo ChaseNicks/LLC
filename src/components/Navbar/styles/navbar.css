@@ -11,6 +11,6 @@ nav {
 }
 
 .nav-item-styles:hover {
-  border-bottom: 5px solid #972EFF;
+  border-bottom: 2px solid #972eff;
   color: black !important;
 }

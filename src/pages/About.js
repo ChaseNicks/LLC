@@ -6,10 +6,11 @@ const About = () => {
   return (
     <div>
       <div
+        className="container is-fluid"
         style={{
-          height: "fit-content",
+          minHeight: "29.5rem",
           marginBottom: "2.5rem",
-          marginTop: "6rem",
+          marginTop: "4.5rem",
         }}
       >
         <div className="columns">
@@ -18,7 +19,7 @@ const About = () => {
               className="has-text-centered is-size-1"
               style={{
                 marginTop: "2rem",
-                marginBottom: "1rem",
+                marginBottom: ".7rem",
                 fontWeight: "boldest",
               }}
             >
@@ -31,7 +32,7 @@ const About = () => {
                   background: "linear-gradient(to right, #972EFF , #E197FD)",
                   height: ".18rem",
                   width: "9%",
-                  marginBottom: "1rem",
+                  marginBottom: "1.1rem",
                 }}
               ></div>
             </div>
@@ -55,7 +56,7 @@ const About = () => {
               className="has-text-centered is-size-1"
               style={{
                 marginTop: "2rem",
-                marginBottom: "1rem",
+                marginBottom: ".7rem",
                 fontWeight: "boldest",
               }}
             >
@@ -68,7 +69,7 @@ const About = () => {
                   background: "linear-gradient(to right, #972EFF , #E197FD)",
                   height: ".18rem",
                   width: "9%",
-                  marginBottom: "1rem",
+                  marginBottom: "1.1rem",
                 }}
               ></div>
             </div>
@@ -91,9 +92,11 @@ const About = () => {
       </div>
 
       <div
+        className="container is-fluid"
         style={{
-          background: "#FCFCFC",
-          height: "fit-content",
+          background: "linear-gradient(to right, #29C5F6 , #1260CC)",
+          minHeight: "36.5rem",
+          maxHeight: "120rem",
           marginBottom: "2.5rem",
           marginTop: "2.5rem",
         }}
@@ -104,6 +107,7 @@ const About = () => {
             paddingTop: "1.4rem",
             marginBottom: "1rem",
             fontWeight: "boldest",
+            color: "white"
           }}
         >
           OUR VALUES{" "}
@@ -112,23 +116,22 @@ const About = () => {
           <div
             className="justify-content-center"
             style={{
-              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              background: "#424747",
               height: ".18rem",
               width: "5%",
               marginBottom: "2rem",
             }}
           ></div>
         </div>
-        <div style={{ marginLeft: "1rem", marginRight: "1rem" }}>
-          <div className="columns">
+        <div style={{ marginLeft: "1rem", marginRight: "1.1rem" }}>
+          <div className="is-flex is-flex-wrap-wrap" style={{ height: "fit-content", rowGap: '1.2rem', paddingBottom: "2rem"}}>
             <div
-              className="column box is-half is-flex box-trust"
-              style={{ marginRight: ".5rem" }}
+              className=" box is-half is-flex box-trust"
             >
               <div className="">
                 <h2
-                  className="has-text-centered is-size-2"
-                  style={{ paddingBottom: ".7rem" }}
+                  className="has-text-centered is-size-2 is-size-3-mobile"
+                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
                 >
                   Trust
                 </h2>
@@ -146,11 +149,11 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="column box is-half is-flex box-quality" style={{}}>
+            <div className=" box is-half is-flex box-quality" style={{ }}>
               <div className="">
                 <h2
-                  className="has-text-centered is-size-2"
-                  style={{ paddingBottom: ".7rem" }}
+                  className="has-text-centered is-size-2 is-size-3-mobile"
+                  style={{ paddingBottom: ".7rem",fontWeight: "boldest" }}
                 >
                   Quality
                 </h2>
@@ -168,18 +171,15 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="columns">
             <div
-              className="column box is-half is-flex box-trust"
-              style={{ marginRight: ".5rem" }}
+              className=" box is-half is-flex box-trust "
             >
               <div className="">
                 <h2
-                  className="has-text-centered is-size-2"
-                  style={{ paddingBottom: ".7rem" }}
+                  className="has-text-centered is-size-2 is-size-3-mobile"
+                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
                 >
-                  Trust
+                  Transparency
                 </h2>
                 <p
                   className="has-text-left is-size-5"
@@ -195,11 +195,11 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="column box is-half is-flex box-quality" style={{}}>
+            <div className=" box is-half is-flex box-quality" style={{}}>
               <div className="">
                 <h2
-                  className="has-text-centered is-size-2"
-                  style={{ paddingBottom: ".7rem" }}
+                  className="has-text-centered is-size-2 is-size-3-mobile"
+                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
                 >
                   Quality
                 </h2>
