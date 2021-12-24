@@ -94,6 +94,7 @@ const About = () => {
         style={{
           background: "linear-gradient(to right, #29C5F6 , #1260CC)",
           minHeight: "36.5rem",
+          maxHeight: "120rem",
           marginBottom: "2.5rem",
           marginTop: "2.5rem",
         }}
@@ -121,14 +122,13 @@ const About = () => {
           ></div>
         </div>
         <div style={{ marginLeft: "1rem", marginRight: "1.1rem" }}>
-          <div className="columns">
+          <div className="is-flex is-flex-wrap-wrap" style={{ height: "fit-content", rowGap: '1.2rem', paddingBottom: "2rem"}}>
             <div
-              className="column box is-half is-flex box-trust"
-              style={{ marginRight: ".5rem" }}
+              className=" box is-half is-flex box-trust"
             >
               <div className="">
                 <h2
-                  className="has-text-centered is-size-2"
+                  className="has-text-centered is-size-2 is-size-3-mobile"
                   style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
                 >
                   Trust
@@ -147,10 +147,10 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="column box is-half is-flex box-quality" style={{}}>
+            <div className=" box is-half is-flex box-quality" style={{ }}>
               <div className="">
                 <h2
-                  className="has-text-centered is-size-2"
+                  className="has-text-centered is-size-2 is-size-3-mobile"
                   style={{ paddingBottom: ".7rem",fontWeight: "boldest" }}
                 >
                   Quality
@@ -169,15 +169,12 @@ const About = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="columns">
             <div
-              className="column box is-half is-flex box-trust"
-              style={{ marginRight: ".5rem" }}
+              className=" box is-half is-flex box-trust "
             >
               <div className="">
                 <h2
-                  className="has-text-centered is-size-2"
+                  className="has-text-centered is-size-2 is-size-3-mobile"
                   style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
                 >
                   Transparency
@@ -196,10 +193,10 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="column box is-half is-flex box-quality" style={{}}>
+            <div className=" box is-half is-flex box-quality" style={{}}>
               <div className="">
                 <h2
-                  className="has-text-centered is-size-2"
+                  className="has-text-centered is-size-2 is-size-3-mobile"
                   style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
                 >
                   Quality
