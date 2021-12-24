@@ -17,7 +17,7 @@ const About = () => {
               className="has-text-centered is-size-1"
               style={{
                 marginTop: "2rem",
-                marginBottom: "1rem",
+                marginBottom: ".7rem",
                 fontWeight: "boldest",
               }}
             >
@@ -30,7 +30,7 @@ const About = () => {
                   background: "linear-gradient(to right, #972EFF , #E197FD)",
                   height: ".18rem",
                   width: "9%",
-                  marginBottom: "1rem",
+                  marginBottom: "1.1rem",
                 }}
               ></div>
             </div>
@@ -54,7 +54,7 @@ const About = () => {
               className="has-text-centered is-size-1"
               style={{
                 marginTop: "2rem",
-                marginBottom: "1rem",
+                marginBottom: ".7rem",
                 fontWeight: "boldest",
               }}
             >
@@ -67,7 +67,7 @@ const About = () => {
                   background: "linear-gradient(to right, #972EFF , #E197FD)",
                   height: ".18rem",
                   width: "9%",
-                  marginBottom: "1rem",
+                  marginBottom: "1.1rem",
                 }}
               ></div>
             </div>

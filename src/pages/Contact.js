@@ -50,7 +50,7 @@ const Contact = () => {
         className="has-text-centered is-size-1"
         style={{
           marginTop: "5rem",
-          marginBottom: "1rem",
+          marginBottom: ".7rem",
           fontWeight: "boldest",
         }}
       >
@@ -63,7 +63,7 @@ const Contact = () => {
             background: "linear-gradient(to right, #972EFF , #E197FD)",
             height: ".18rem",
             width: "5%",
-            marginBottom: "1.3rem",
+            marginBottom: "1.2rem",
           }}
         ></div>
       </div>
@@ -212,7 +212,7 @@ const Contact = () => {
         className="has-text-centered is-size-1"
         style={{
           marginTop: "5rem",
-          marginBottom: "1rem",
+          marginBottom: ".7rem",
           fontWeight: "boldest",
         }}
       >
@@ -225,7 +225,7 @@ const Contact = () => {
             background: "linear-gradient(to right, #972EFF , #E197FD)",
             height: ".18rem",
             width: "5%",
-            marginBottom: "2rem",
+            marginBottom: "2.3rem",
           }}
         ></div>
       </div>
