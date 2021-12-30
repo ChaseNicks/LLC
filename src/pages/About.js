@@ -107,7 +107,7 @@ const About = () => {
             paddingTop: "1.4rem",
             marginBottom: "1rem",
             fontWeight: "boldest",
-            color: "white"
+            color: "white",
           }}
         >
           OUR VALUES{" "}
@@ -124,10 +124,15 @@ const About = () => {
           ></div>
         </div>
         <div style={{ marginLeft: "1rem", marginRight: "1.1rem" }}>
-          <div className="is-flex is-flex-wrap-wrap" style={{ height: "fit-content", rowGap: '1.2rem', paddingBottom: "2rem"}}>
-            <div
-              className=" box is-half is-flex box-trust"
-            >
+          <div
+            className="is-flex is-flex-wrap-wrap"
+            style={{
+              height: "fit-content",
+              rowGap: "1.2rem",
+              paddingBottom: "2rem",
+            }}
+          >
+            <div className=" box is-half is-flex box-trust">
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
@@ -149,11 +154,11 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className=" box is-half is-flex box-quality" style={{ }}>
+            <div className=" box is-half is-flex box-quality" style={{}}>
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
-                  style={{ paddingBottom: ".7rem",fontWeight: "boldest" }}
+                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
                 >
                   Quality
                 </h2>
@@ -171,9 +176,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div
-              className=" box is-half is-flex box-trust "
-            >
+            <div className=" box is-half is-flex box-trust ">
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
@@ -246,43 +249,61 @@ const About = () => {
               background: "linear-gradient(to right, #972EFF , #E197FD)",
               height: ".18rem",
               width: "5%",
-              marginBottom: "1rem",
+              marginBottom: "2rem",
             }}
           ></div>
         </div>
         <div style={{ display: "flex", justifyContent: "center" }}>
-          <div className="art-container columns is-desktop is-justify-content-center" style={{ marginRight: "1.5rem", marginLeft: "1.5rem", columnGap: "10rem"}}>
-            <div class="column is-two-fifths" >
+          <div
+            className="art-container columns is-desktop is-justify-content-center"
+            style={{
+              marginRight: "1.5rem",
+              marginLeft: "1.5rem",
+              columnGap: "7.9rem",
+            }}
+          >
+            <div class="column is-two-fifths">
               <div className="founder">
-                <img className="pic" src={chase} alt="asdasd" />
+                <img
+                  className="pic"
+                  style={{ padding: "1rem", border: "#E197FD solid 1px" }}
+                  src={chase}
+                  alt="asdasd"
+                />
               </div>
-              <h2 id="aboutme-justin">Co-Founder | Chase Nicks</h2>
-              <p id="aboutme-para">Writing an ‘About Me’ page or section for yourself is never easy. However,
-                the good
-                news is if you
-                follow the formula and tips below, you should be able to generate an engaging ‘About Me’
-                statement
-                without too much of a
-                struggle. Here’s how to write an ‘About Me’ page you can be proud of.</p>
+              <h2 id="aboutme" style={{ paddingBottom: "1.3rem" }}>
+                Chase | CO-FOUNDER
+              </h2>
             </div>
-
             <div className="column is-two-fifths">
               <div className="founder">
-                <img className="pic" src={leland} alt="asdasd" />
+                <img
+                  className="pic"
+                  style={{ padding: "1rem", border: "#E197FD solid 1px" }}
+                  src={leland}
+                  alt="asdasd"
+                />
               </div>
-              <h2 id="aboutme-2">Co-Founder | Leland Hayes</h2>
-              <p id="aboutme-para">Writing an ‘About Me’ page or section for yourself is never easy. However,
-                the good
-                news is if you
-                follow the formula and tips below, you should be able to generate an engaging ‘About Me’
-                statement
-                without too much of a
-                struggle. Here’s how to write an ‘About Me’ page you can be proud of.</p>
+              <h2 id="aboutme-2">Leland | CO-FOUNDER</h2>
             </div>
           </div>
         </div>
-
-
+        <div
+          className=""
+          style={{
+            background: "#696969",
+            borderRadius: ".6rem",
+            marginTop: "4rem",
+            marginRight: "2rem",
+            marginLeft: "2rem",
+          }}
+        >
+          <p id="aboutme-para">
+            This needs to be something that we both think has meaning to the
+            reasoning we created the company. Also something that kind glosses
+            over our traits, with our team/customers.
+          </p>
+        </div>
       </div>
     </div>
   );
