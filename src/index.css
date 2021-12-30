@@ -252,10 +252,11 @@ button {
   height: 15rem;
 }
 
-#aboutme-justin {
+#aboutme {
   text-align: center;
   font-weight: 400;
   font-size: 1.5em;
+  margin-top: 1.1rem;
 }
 
 .founder {
@@ -267,13 +268,14 @@ button {
   text-align: center;
   font-weight: 400;
   font-size: 1.5em;
+  margin-top: 1.1rem;
 }
 
 #aboutme-para {
-  text-align: center;
-  font-weight: 300;
+  color: white;
+  text-align: left;
+  font-weight: 600;
   line-height: 1.5;
   font-size: 1.5em;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  padding: 4rem;
 }
