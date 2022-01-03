@@ -1,95 +1,27 @@
 import React from "react";
 import chase from "../assets/chase.jpg";
 import leland from "../assets/leland.jpg";
+import vid from "../assets/test.mp4";
 
 const About = () => {
   return (
     <div>
-      <div
-        className="container is-fluid"
-        style={{
-          minHeight: "29.5rem",
-          marginBottom: "2.5rem",
-          marginTop: "4.5rem",
-        }}
-      >
-        <div className="columns">
-          <div className="column is-half is-flex is-flex-direction-column">
-            <h2
-              className="has-text-centered is-size-1"
-              style={{
-                marginTop: "2rem",
-                marginBottom: ".7rem",
-                fontWeight: "boldest",
-              }}
-            >
-              WHAT WE DO{" "}
-            </h2>
-            <div className="is-flex is-justify-content-center" style={{}}>
-              <div
-                className="justify-content-center"
-                style={{
-                  background: "linear-gradient(to right, #972EFF , #E197FD)",
-                  height: ".18rem",
-                  width: "9%",
-                  marginBottom: "1.1rem",
-                }}
-              ></div>
-            </div>
-            <div className="is-flex is-justify-content-center">
-              <p
-                className="has-text-centered is-size-4"
-                style={{
-                  maxWidth: "40rem",
-                  marginBottom: "3rem",
-                  fontWeight: "bold",
-                }}
-              >
-                Let Digifie help you with all your digital needs. There are
-                multiple ways to contact us, choose which one is best for you.
-                Lets start building your dream website.{" "}
-              </p>
-            </div>
-          </div>
-          <div className="column is-half is-flex is-flex-direction-column">
-            <h2
-              className="has-text-centered is-size-1"
-              style={{
-                marginTop: "2rem",
-                marginBottom: ".7rem",
-                fontWeight: "boldest",
-              }}
-            >
-              HOW WE WORK{" "}
-            </h2>
-            <div className="is-flex is-justify-content-center" style={{}}>
-              <div
-                className="justify-content-center"
-                style={{
-                  background: "linear-gradient(to right, #972EFF , #E197FD)",
-                  height: ".18rem",
-                  width: "9%",
-                  marginBottom: "1.1rem",
-                }}
-              ></div>
-            </div>
-            <div className="is-flex is-justify-content-center">
-              <p
-                className="has-text-centered is-size-4"
-                style={{
-                  maxWidth: "40rem",
-                  marginBottom: "3rem",
-                  fontWeight: "bold",
-                }}
-              >
-                Let Digifie help you with all your digital needs. There are
-                multiple ways to contact us, choose which one is best for you.
-                Lets start building your dream website.{" "}
-              </p>
-            </div>
-          </div>
+
+
+      <div className="videoDiv2" style={{ backgroundColor: "black"}}>
+        <video className="video2" autoPlay palysInline loop muted style={{ opacity: ".4"}}>
+          <source src={vid} />
+        </video>
+
+        <div id="videoMessage2" className="styling">
+          <h1 className="is-size-5">ABOUT US</h1>
+          <h2 className="is-size-2 has-text-weight-bold" style={{ width: "41rem"}}>We think you should feel supported by the people you work with</h2>
+          <p className="is-size-3">The quality of our software development comes from how we treat each other. Our talent remains approachable and ready to lend a hand because it’s the right thing to do.</p>
         </div>
       </div>
+
+
+
 
       <div
         className="container is-fluid"
@@ -259,10 +191,10 @@ const About = () => {
             style={{
               marginRight: "1.5rem",
               marginLeft: "1.5rem",
-              columnGap: "7.9rem",
+              columnGap: "3rem",
             }}
           >
-            <div class="column is-two-fifths">
+            <div class="column is-three-fifths">
               <div className="founder">
                 <img
                   className="pic"
@@ -272,10 +204,10 @@ const About = () => {
                 />
               </div>
               <h2 id="aboutme" style={{ paddingBottom: "1.3rem" }}>
-                Chase | CO-FOUNDER
+                Chase Nicks | CO-FOUNDER
               </h2>
             </div>
-            <div className="column is-two-fifths">
+            <div className="column is-three-fifths">
               <div className="founder">
                 <img
                   className="pic"
@@ -284,24 +216,20 @@ const About = () => {
                   alt="asdasd"
                 />
               </div>
-              <h2 id="aboutme-2">Leland | CO-FOUNDER</h2>
+              <h2 id="aboutme-2">Leland Hayes | CO-FOUNDER</h2>
             </div>
           </div>
         </div>
         <div
           className=""
           style={{
-            background: "#696969",
-            borderRadius: ".6rem",
             marginTop: "4rem",
             marginRight: "2rem",
             marginLeft: "2rem",
           }}
         >
           <p id="aboutme-para">
-            This needs to be something that we both think has meaning to the
-            reasoning we created the company. Also something that kind glosses
-            over our traits, with our team/customers.
+            From the very beginning we knew that we wanted to share out love for tech with others in a impactful way leading us to create <span style={{ color: " #972EFF ", fontWeight: "600" }}>Digifie</span>. Our goal is to provide others with top class digital capabilities to better server their audience rather that be for businesses, creators, or individuals wanting to better showcase themselves online.
           </p>
         </div>
       </div>
