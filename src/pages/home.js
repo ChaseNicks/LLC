@@ -41,13 +41,13 @@ const Home = () => {
               age to benefit them most.
             </p>
             <a href="/contact">
-            <button
-              type="submit"
-              className="button "
-              style={{ borderColor: "#972EFF ", fontWeight: "bold" }}
-            >
-              Get A Free Quote
-            </button>
+              <button
+                type="submit"
+                className="button "
+                style={{ borderColor: "#972EFF ", fontWeight: "bold" }}
+              >
+                Get A Free Quote
+              </button>
             </a>
           </div>
 
@@ -85,7 +85,7 @@ const Home = () => {
         </div>
         <p
           className="has-text-centered is-size-4"
-          style={{ marginBottom: "5rem", fontWeight: "bold", }}
+          style={{ marginBottom: "5rem", fontWeight: "bold" }}
         >
           Our expertise in the digital space delivers solutions.{" "}
         </p>
@@ -268,9 +268,8 @@ const Home = () => {
       </div>
 
       {/* Work Timeline */}
-    <div className="container" style={{ marginTop: "8rem"}}>
-
-    <div className="has-text-centered">
+      <div className="container" style={{ marginTop: "8rem" }}>
+        <div className="has-text-centered">
           <h1
             className="is-size-1 is-size-2-mobile"
             style={{ fontWeight: "boldest", marginBottom: ".6rem" }}
@@ -306,72 +305,74 @@ const Home = () => {
           </div>
         </div>
 
-      <div className="timeline">
-        <div className="conta left">
-<div className="date">Start</div>
-          <i className="icon fa fa-home"></i>
-          <div className="content">
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>
-              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-            </p>
+        <div className="timeline">
+          <div className="conta left">
+            <div className="date">Start</div>
+            <i className="icon fa fa-home"></i>
+            <div className="content">
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p>
+                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
+                erat sagittis non. Ut blandit semper pretium.
+              </p>
+            </div>
+          </div>
+          <div className="conta right">
+            <i className="icon fa fa-gift"></i>
+            <div className="content">
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p>
+                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
+                erat sagittis non. Ut blandit semper pretium.
+              </p>
+            </div>
+          </div>
+          <div className="conta left">
+            <i className="icon fa fa-user"></i>
+            <div className="content">
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p>
+                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
+                erat sagittis non. Ut blandit semper pretium.
+              </p>
+            </div>
+          </div>
+          <div className="conta right">
+            <i className="icon fa fa-fire"></i>
+            <div className="content">
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p>
+                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
+                erat sagittis non. Ut blandit semper pretium.
+              </p>
+            </div>
+          </div>
+          <div className="conta left">
+            <i className="icon fa fa-cog"></i>
+            <div className="content">
+              <h2>Lorem ipsum dolor sit amet</h2>
+              <p>
+                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
+                erat sagittis non. Ut blandit semper pretium.
+              </p>
+            </div>
+          </div>
+          <div className="conta right">
+            <div className="date">Finish</div>
+            <i className="icon fa fa-certificate"></i>
+            <div className="content">
+              <h2>className ipsum dolor sit amet</h2>
+              <p>
+                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
+                erat sagittis non. Ut blandit semper pretium.
+              </p>
+            </div>
           </div>
         </div>
-        <div className="conta right">
-
-          <i className="icon fa fa-gift"></i>
-          <div className="content">
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>
-              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-            </p>
-          </div>
-        </div>
-        <div className="conta left">
-
-          <i className="icon fa fa-user"></i>
-          <div className="content">
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>
-              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-            </p>
-          </div>
-        </div>
-        <div className="conta right">
-
-          <i className="icon fa fa-fire"></i>
-          <div className="content">
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>
-              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-            </p>
-          </div>
-        </div>
-        <div className="conta left">
-
-          <i className="icon fa fa-cog"></i>
-          <div className="content">
-            <h2>Lorem ipsum dolor sit amet</h2>
-            <p>
-              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-            </p>
-          </div>
-        </div>
-        <div className="conta right">
-        <div className="date">Finish</div>
-          <i className="icon fa fa-certificate"></i>
-          <div className="content">
-            <h2>className ipsum dolor sit amet</h2>
-            <p>
-              Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-            </p>
-          </div>
-        </div>
-      </div>
       </div>
 
       {/* Our Work */}
-      <section style={{ paddingTop: "3rem" }}>
+      <section style={{ paddingTop: "3rem", marginTop: "4rem" }}>
         <div className="has-text-centered">
           <h1
             className="is-size-1 is-size-2-mobile"
@@ -407,24 +408,223 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="columns is-mobile is-flex-wrap-wrap">
-          <div className="column is-one-third is-half-mobile" >
-            <img src={ex1} alt=""  />
-          </div>
-          <div className="column is-one-third is-half-mobile" >
-            <img src={ex1} alt="" />
-          </div>
-          <div className="column is-one-third is-half-mobile" >
-            <img src={ex1} alt="" />
-          </div>
-          <div className="column is-one-third is-half-mobile" >
-            <img src={ex1} alt="" />
-          </div>
-          <div className="column is-one-third is-half-mobile" >
-            <img src={ex1} alt="" />
-          </div>
-          <div className="column is-one-third is-half-mobile" >
-            <img src={ex1} alt="" />
+
+        <div class="wrapper">
+          <div class="cols">
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <a
+                href="https://chasenicks.github.io/tattoo_shop/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <div class="container">
+                  <div class="front" style={{ backgroundImage: `url(${ex1})` }}>
+                    <div class="inner">
+                      <p>CoinBull</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>
+                        A crypto application that gives users insight on current
+                        market conditions, allowing users to log in and save
+                        their favorite coins. With charting ability of
+                        individual crypto's.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <a
+                href="https://coinbullapp.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <div class="container">
+                  <div class="front" style={{ backgroundImage: `url(${ex1})` }}>
+                    <div class="inner">
+                      <p>CoinBull</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>
+                        A crypto application that gives users insight on current
+                        market conditions, allowing users to log in and save
+                        their favorite coins. With charting ability of
+                        individual crypto's.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+              </a>
+            </div>
+
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <a
+                href="https://copernichris.github.io/CryptoWatch/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <div class="container">
+                  <div class="front" style={{ backgroundImage: `url(${ex1})` }}>
+                    <div class="inner">
+                      <p>CoinBull</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>
+                        A crypto application that gives users insight on current
+                        market conditions, allowing users to log in and save
+                        their favorite coins. With charting ability of
+                        individual crypto's.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+              </a>
+            </div>
+
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <a
+                href="https://ilelandhayes.github.io/React_Portfolio/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <div class="container">
+                  <div class="front" style={{ backgroundImage: `url(${ex1})` }}>
+                    <div class="inner">
+                      <p>CoinBull</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>
+                        A crypto application that gives users insight on current
+                        market conditions, allowing users to log in and save
+                        their favorite coins. With charting ability of
+                        individual crypto's.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+              </a>
+            </div>
+
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <a
+                href="https://ilelandhayes.github.io/Weather-Dashboard/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <div class="container">
+                  <div class="front" style={{ backgroundImage: `url(${ex1})` }}>
+                    <div class="inner">
+                      <p>CoinBull</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>
+                        A crypto application that gives users insight on current
+                        market conditions, allowing users to log in and save
+                        their favorite coins. With charting ability of
+                        individual crypto's.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+              </a>
+            </div>
+
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <a
+                href="https://ilelandhayes.github.io/Javascript-Quiz/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <div class="container">
+                  <div class="front" style={{ backgroundImage: `url(${ex1})` }}>
+                    <div class="inner">
+                      <p>CoinBull</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>
+                        A crypto application that gives users insight on current
+                        market conditions, allowing users to log in and save
+                        their favorite coins. With charting ability of
+                        individual crypto's.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+              </a>
+            </div>
+
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <a
+                href="https://ilelandhayes.github.io/Daily-Planner/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <div class="container">
+                  <div class="front" style={{ backgroundImage: `url(${ex1})` }}>
+                    <div class="inner">
+                      <p>CoinBull</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>
+                        A crypto application that gives users insight on current
+                        market conditions, allowing users to log in and save
+                        their favorite coins. With charting ability of
+                        individual crypto's.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+              </a>
+            </div>
+
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+              <a
+                href="https://ilelandhayes.github.io/Password-Generator/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <div class="container">
+                  <div class="front" style={{ backgroundImage: `url(${ex1})` }}>
+                    <div class="inner">
+                      <p>CoinBull</p>
+                    </div>
+                  </div>
+                  <div class="back">
+                    <div class="inner">
+                      <p>
+                        A crypto application that gives users insight on current
+                        market conditions, allowing users to log in and save
+                        their favorite coins. Also has charting ability.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+              </a>
+            </div>
           </div>
         </div>
       </section>
