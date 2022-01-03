@@ -291,7 +291,7 @@ const Home = () => {
             <p
               className="is-size-5 is-size-5-mobile has-text-centered"
               style={{
-                paddingBottom: "3rem",
+                paddingBottom: "5.5rem",
                 maxWidth: "48rem",
                 fontWeight: "bold",
               }}
@@ -372,7 +372,7 @@ const Home = () => {
       </div>
 
       {/* Our Work */}
-      <section style={{ paddingTop: "3rem", marginTop: "4rem" }}>
+      <section style={{ paddingTop: "3rem", marginTop: "3rem" }}>
         <div className="has-text-centered">
           <h1
             className="is-size-1 is-size-2-mobile"
@@ -413,7 +413,7 @@ const Home = () => {
           <div class="cols">
             <div class="col" ontouchstart="this.classList.toggle('hover');">
               <a
-                href="https://chasenicks.github.io/tattoo_shop/"
+                href="https://coinbullapp.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -467,7 +467,7 @@ const Home = () => {
 
             <div class="col" ontouchstart="this.classList.toggle('hover');">
               <a
-                href="https://copernichris.github.io/CryptoWatch/"
+                href="https://coinbullapp.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -494,7 +494,7 @@ const Home = () => {
 
             <div class="col" ontouchstart="this.classList.toggle('hover');">
               <a
-                href="https://ilelandhayes.github.io/React_Portfolio/"
+                href="https://coinbullapp.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -521,7 +521,7 @@ const Home = () => {
 
             <div class="col" ontouchstart="this.classList.toggle('hover');">
               <a
-                href="https://ilelandhayes.github.io/Weather-Dashboard/"
+                href="https://coinbullapp.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -548,7 +548,7 @@ const Home = () => {
 
             <div class="col" ontouchstart="this.classList.toggle('hover');">
               <a
-                href="https://ilelandhayes.github.io/Javascript-Quiz/"
+                href="https://coinbullapp.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -575,7 +575,7 @@ const Home = () => {
 
             <div class="col" ontouchstart="this.classList.toggle('hover');">
               <a
-                href="https://ilelandhayes.github.io/Daily-Planner/"
+                href="https://coinbullapp.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -602,7 +602,7 @@ const Home = () => {
 
             <div class="col" ontouchstart="this.classList.toggle('hover');">
               <a
-                href="https://ilelandhayes.github.io/Password-Generator/"
+                href="https://coinbullapp.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
