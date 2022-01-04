@@ -298,7 +298,7 @@ const Home = () => {
           </div>
           <div className="is-flex is-justify-content-center">
             <p
-              className="is-size-5 is-size-5-mobile has-text-centered"
+              className="is-size-4 is-size-5-mobile has-text-centered"
               style={{
                 paddingBottom: "5.5rem",
                 maxWidth: "48rem",
@@ -402,7 +402,7 @@ const Home = () => {
           </div>
           <div className="is-flex is-justify-content-center">
             <p
-              className="is-size-5 is-size-5-mobile has-text-centered"
+              className="is-size-4 is-size-5-mobile has-text-centered"
               style={{
                 paddingBottom: "3rem",
                 maxWidth: "48rem",
