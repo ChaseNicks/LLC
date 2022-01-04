@@ -26,11 +26,9 @@ const About = () => {
       <div
         className="container is-fluid"
         style={{
-          background: "linear-gradient(to right, #29C5F6 , #1260CC)",
           minHeight: "36.5rem",
           maxHeight: "120rem",
-          marginBottom: "2.5rem",
-          marginTop: "2.5rem",
+          marginBottom: "2.5rem"
         }}
       >
         <h2
@@ -39,7 +37,7 @@ const About = () => {
             paddingTop: "1.4rem",
             marginBottom: "1rem",
             fontWeight: "boldest",
-            color: "white",
+            color: "black",
           }}
         >
           OUR VALUES{" "}
@@ -48,7 +46,7 @@ const About = () => {
           <div
             className="justify-content-center"
             style={{
-              background: "#424747",
+              background: "linear-gradient(to right, #972EFF , #E197FD)",
               height: ".18rem",
               width: "5%",
               marginBottom: "2rem",
@@ -158,7 +156,6 @@ const About = () => {
 
       <div
         style={{
-          background: "white",
           height: "fit-content",
           marginBottom: "2.5rem",
           marginTop: "2.5rem",

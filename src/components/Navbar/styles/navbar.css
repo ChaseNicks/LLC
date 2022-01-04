@@ -1,6 +1,5 @@
 nav {
   padding: 1rem;
-  background-color: transparent;
 }
 
 .navbar-brand {
@@ -9,9 +8,30 @@ nav {
 
 .navbar-item {
   margin-right: 1rem;
+  color: white !important;
+}
+
+.navbar-menu {
+  color: white;
+  background-color: black;
+}
+
+.navbar-burger {
+  color: #972eff;
+  background-color: black;
+}
+
+span {
+  color: #972eff;
+  height: 2px;
+  width: 26px;
+}
+
+.navbar-burger span {
+  transition-duration: 1s;
 }
 
 .nav-item-styles:hover {
   border-bottom: 2px solid #972eff;
-  color: black !important;
+  background-color: black !important;
 }
