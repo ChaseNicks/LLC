@@ -1,6 +1,6 @@
 import React from "react";
 // import Logo from "../assets/full-logo.png";
-import Sample from "../assets/sample.jpeg";
+// import Sample from "../assets/sample.jpeg";
 import Site from "../assets/site.png";
 import DB from "../assets/database.png";
 import SEO from "../assets/seo.png";
@@ -51,13 +51,13 @@ const Home = () => {
             </a>
           </div>
 
-          <div className="column" style={{ marginBottom: ".3rem" }}>
+          {/* <div className="column" style={{ marginBottom: ".3rem" }}>
             <img
               src={Sample}
               alt="Digifie"
               style={{ height: "20rem", width: "29rem" }}
             />
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -65,7 +65,7 @@ const Home = () => {
         <h1
           className="has-text-centered is-size-1"
           style={{
-            paddingTop: "2rem",
+            paddingTop: "4.5rem",
             marginBottom: ".7rem",
             fontWeight: "boldest",
           }}
@@ -268,7 +268,7 @@ const Home = () => {
       </div>
 
       {/* Work Timeline */}
-      <div className="container" style={{ marginTop: "8rem" }}>
+      <div className="container" style={{ marginTop: "6rem" }}>
         <div className="has-text-centered">
           <h1
             className="is-size-1 is-size-2-mobile"
