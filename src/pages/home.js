@@ -372,7 +372,7 @@ const Home = () => {
       </div>
 
       {/* Our Work */}
-      <section style={{ paddingTop: "3rem", marginTop: "3rem" }}>
+      <section style={{ paddingTop: "2.2rem", marginTop: "3rem" }}>
         <div className="has-text-centered">
           <h1
             className="is-size-1 is-size-2-mobile"
