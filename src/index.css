@@ -483,3 +483,9 @@ button {
   width: 50rem;
   row-gap: 1rem;
 }
+
+.serv-cards {
+  border-radius: 1rem;
+  background-color: rgb(43, 42, 42);
+}
+

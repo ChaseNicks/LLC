@@ -44,7 +44,7 @@ const Home = () => {
               <button
                 type="submit"
                 className="button "
-                style={{ borderColor: "#972EFF ", fontWeight: "bold" }}
+                style={{ borderColor: "#972EFF ", fontWeight: "bold", color: "white", backgroundColor: "black" }}
               >
                 Get A Free Quote
               </button>
@@ -94,13 +94,12 @@ const Home = () => {
           style={{
             marginLeft: "1rem",
             marginRight: "1rem",
-            marginBottom: "3rem",
           }}
         >
           {/* Custome Site */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center"
-            style={{ marginLeft: "1rem", marginRight: "1rem" }}
+            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center serv-cards"
+            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={Site}
@@ -127,8 +126,8 @@ const Home = () => {
           </div>
           {/* Database */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center"
-            style={{ marginLeft: "1rem", marginRight: "1rem" }}
+            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center serv-cards"
+            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={DB}
@@ -153,8 +152,8 @@ const Home = () => {
           </div>
           {/* SEO */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center"
-            style={{ marginLeft: "1rem", marginRight: "1rem" }}
+            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center serv-cards"
+            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={SEO}
@@ -182,12 +181,12 @@ const Home = () => {
 
         <div
           className="columns"
-          style={{ marginLeft: "1rem", marginRight: "1rem" }}
+          style={{ marginLeft: "1rem", marginRight: "1rem", rowGap: "1rem" }}
         >
           {/* Analytic Dashboards */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center"
-            style={{ marginLeft: "1rem", marginRight: "1rem" }}
+            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center serv-cards"
+            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={Analytics}
@@ -215,19 +214,25 @@ const Home = () => {
           </div>
           {/* Logo Design */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center"
-            style={{ marginLeft: "1rem", marginRight: "1rem" }}
+            className="column is-one-forth is-flex is-flex-direction-column  serv-cards"
+            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={LogoDesign}
               alt="custom websites"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem" }}
+              style={{
+                height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "1rem",
+                marginRight: "1rem",
+              }}
             />
-            <h2 className="is-size-3" style={{ paddingBottom: ".7rem" }}>
+            <h2 className="is-size-3" style={{
+              paddingBottom: ".7rem", marginLeft: "1rem",
+              marginRight: "1rem",
+            }}>
               Logo Design
             </h2>
             <p
-              className={"has-text-centered"}
+              className={""}
               style={{
                 paddingBottom: "1.5rem",
                 marginLeft: "1rem",
@@ -240,19 +245,23 @@ const Home = () => {
           </div>
           {/* Site Revamp*/}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center"
-            style={{ marginLeft: "1rem", marginRight: "1rem" }}
+            className="column is-one-forth is-flex is-flex-direction-column serv-cards"
+            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={WebRevamp}
               alt="custom websites"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem" }}
+              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "1rem" }}
             />
-            <h2 className="is-size-3" style={{ paddingBottom: ".7rem" }}>
+            <h2 className="is-size-3" style={{
+              paddingBottom: ".7rem",
+              marginLeft: "1rem",
+              marginRight: "1rem",
+            }}>
               Site Revamp
             </h2>
             <p
-              className={"has-text-centered"}
+              className={""}
               style={{
                 paddingBottom: "1.5rem",
                 marginLeft: "1rem",

@@ -29,7 +29,7 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <nav>
-        <div className="navbar-start">
+        <div className="navbar-start" style={{ marginRight: "3rem", marginLeft: "3rem"}}>
           <div className="navbar-brand">
             <Link to="/home" className="is-capitalized is-size-3 logo" style={{ display: "flex"}}>
               <img src="tab-icon.png" alt="Digifie" style={{ height: "4rem", width: "4rem"}}/>

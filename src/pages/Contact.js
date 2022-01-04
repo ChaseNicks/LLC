@@ -165,7 +165,7 @@ const Contact = () => {
 
       <div
         style={{
-          background: "black",
+          backgroundColor: "black",
           height: "22rem",
           marginBottom: "4rem",
           marginTop: "4rem",
