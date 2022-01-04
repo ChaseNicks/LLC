@@ -37,7 +37,7 @@ const About = () => {
             paddingTop: "1.4rem",
             marginBottom: "1rem",
             fontWeight: "boldest",
-            color: "black",
+            color: "white",
           }}
         >
           OUR VALUES{" "}
@@ -220,7 +220,7 @@ const About = () => {
         <div
           className=""
           style={{
-            marginTop: "4rem",
+            marginTop: "1rem",
             marginRight: "2rem",
             marginLeft: "2rem",
           }}
