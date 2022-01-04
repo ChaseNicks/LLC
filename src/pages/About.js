@@ -6,29 +6,40 @@ import vid from "../assets/test.mp4";
 const About = () => {
   return (
     <div>
-
-
-      <div className="videoDiv2" style={{ backgroundColor: "black"}}>
-        <video className="video2" autoPlay palysInline loop muted style={{ opacity: ".4"}}>
+      <div className="videoDiv2" style={{ backgroundColor: "black" }}>
+        <video
+          className="video2"
+          autoPlay
+          palysInline
+          loop
+          muted
+          style={{ opacity: ".4" }}
+        >
           <source src={vid} />
         </video>
 
         <div id="videoMessage2" className="styling">
           <h1 className="is-size-5">ABOUT US</h1>
-          <h2 className="is-size-2 has-text-weight-bold" style={{ width: "41rem"}}>We think you should feel supported by the people you work with</h2>
-          <p className="is-size-3">The quality of our software development comes from how we treat each other. Our talent remains approachable and ready to lend a hand because it’s the right thing to do.</p>
+          <h2
+            className="is-size-2 has-text-weight-bold"
+            style={{ width: "41rem" }}
+          >
+            We think you should feel supported by the people you work with
+          </h2>
+          <p className="is-size-3">
+            The quality of our software development comes from how we treat each
+            other. Our talent remains approachable and ready to lend a hand
+            because it’s the right thing to do.
+          </p>
         </div>
       </div>
-
-
-
 
       <div
         className="container is-fluid"
         style={{
           minHeight: "36.5rem",
           maxHeight: "120rem",
-          marginBottom: "2.5rem"
+          marginBottom: "2.5rem",
         }}
       >
         <h2
@@ -218,7 +229,7 @@ const About = () => {
           </div>
         </div>
         <div
-          className=""
+          className="is-size-5"
           style={{
             marginTop: "1rem",
             marginRight: "2rem",
@@ -226,7 +237,15 @@ const About = () => {
           }}
         >
           <p id="aboutme-para">
-            From the very beginning we knew that we wanted to share out love for tech with others in a impactful way leading us to create <span style={{ color: " #972EFF ", fontWeight: "600" }}>Digifie</span>. Our goal is to provide others with top class digital capabilities to better server their audience rather that be for businesses, creators, or individuals wanting to better showcase themselves online.
+            From the very beginning we knew that we wanted to share out love for
+            tech with others in a impactful way leading us to create{" "}
+            <span style={{ color: " #ff934f ", fontWeight: "600" }}>
+              Digifie
+            </span>
+            . Our goal is to provide others with top class digital capabilities
+            to better server their audience rather that be for businesses,
+            creators, or individuals wanting to better showcase themselves
+            online.
           </p>
         </div>
       </div>
