@@ -46,7 +46,7 @@ const About = () => {
           <div
             className="justify-content-center"
             style={{
-              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              background: "linear-gradient(to right, #972EFF , #ff934f)",
               height: ".18rem",
               width: "5%",
               marginBottom: "2rem",
@@ -175,7 +175,7 @@ const About = () => {
           <div
             className="justify-content-center"
             style={{
-              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              background: "linear-gradient(to right, #972EFF , #ff934f)",
               height: ".18rem",
               width: "5%",
               marginBottom: "2rem",
