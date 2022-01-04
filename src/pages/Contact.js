@@ -60,7 +60,7 @@ const Contact = () => {
         <div
           className="justify-content-center"
           style={{
-            background: "linear-gradient(to right, #972EFF , #E197FD)",
+            background: "linear-gradient(to right, #972EFF , #ff934f)",
             height: ".18rem",
             width: "5%",
             marginBottom: "1.2rem",
@@ -152,7 +152,7 @@ const Contact = () => {
                     type="submit"
                     disabled={state.submitting}
                     className="button"
-                    style={{ borderColor: "#972EFF", fontWeight: "bold" }}
+                    style={{ borderColor: "#972EFF", fontWeight: "bold", color: "white", backgroundColor: "black" }}
                   >
                     Submit
                   </button>
@@ -185,7 +185,7 @@ const Contact = () => {
           <div
             className="justify-content-center"
             style={{
-              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              background: "linear-gradient(to right, #972EFF , #ff934f)",
               height: ".18rem",
               width: "5%",
               marginTop: "1rem",
@@ -222,14 +222,14 @@ const Contact = () => {
         <div
           className="justify-content-center"
           style={{
-            background: "linear-gradient(to right, #972EFF , #E197FD)",
+            background: "linear-gradient(to right, #972EFF , #ff934f)",
             height: ".18rem",
             width: "5%",
             marginBottom: "2.3rem",
           }}
         ></div>
       </div>
-      <div className="is-justify-content-center">
+      <div className="is-justify-content-center" style={{ marginTop: "1rem" }}>
         <div className="columns">
           <div className="column">
             <h1
