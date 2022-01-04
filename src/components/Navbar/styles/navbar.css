@@ -23,8 +23,8 @@ nav {
 
 span {
   color: #972eff;
-  height: 2px;
-  width: 26px;
+  height: 2px !important;
+  width: 26px !important;
 }
 
 .navbar-burger span {

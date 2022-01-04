@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
-
 body {
   margin: 0;
   font-family: "Poppins", sans-serif !important;
@@ -459,23 +458,34 @@ button {
   }
 }
 
-#videoDiv2 {width: 100%; height: 300px; position: fixed; top: 0; left: 0}
-#video2 { margin: auto; display: block; opacity: .2;}
-#videoMessage2 { 
-position: absolute; 
-top: 16rem; 
-left: 12rem;
-display: flex;
-flex-direction: column;
-width: 100%;
-height: 100%;
-color: white;
-text-align: left;
-width: 50rem;
-row-gap: 1rem;
+#videoDiv2 {
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+#video2 {
+  margin: auto;
+  display: block;
+  opacity: 0.2;
+}
+#videoMessage2 {
+  position: absolute;
+  top: 16rem;
+  left: 12rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: left;
+  width: 50rem;
+  row-gap: 1rem;
 }
 
 .serv-cards {
   border-radius: 1rem;
   background-color: rgb(43, 42, 42);
 }
+
