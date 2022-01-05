@@ -43,8 +43,8 @@ const Home = () => {
             <a href="/contact">
               <button
                 type="submit"
-                className="button "
-                style={{ borderColor: "#972EFF ", fontWeight: "bold", color: "white", backgroundColor: "black" }}
+                className="button"
+                style={{ borderColor: "#972EFF ", color: "white", backgroundColor: "black" }}
               >
                 Get A Free Quote
               </button>
@@ -98,22 +98,21 @@ const Home = () => {
         >
           {/* Custome Site */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center serv-cards"
+            className="column is-one-forth is-flex is-flex-direction-column serv-cards  grow"
             style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={Site}
               alt="custom websites"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem" }}
+              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem" }}
             />
             <h2
-              className="is-size-3 has-text-centered"
-              style={{ paddingBottom: ".7rem" }}
+              className="is-size-3"
+              style={{ paddingBottom: ".7rem", marginLeft: "1rem" }}
             >
               Custome Site
             </h2>
             <p
-              className={"has-text-centered"}
               style={{
                 paddingBottom: "1.5rem",
                 marginLeft: "1rem",
@@ -126,19 +125,19 @@ const Home = () => {
           </div>
           {/* Database */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center serv-cards"
+            className="column is-one-forth is-flex is-flex-direction-column serv-cards grow"
             style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={DB}
               alt="custom websites"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem" }}
+              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem" }}
             />
-            <h2 className="is-size-3" style={{ paddingBottom: ".7rem" }}>
+            <h2 className="is-size-3" style={{ paddingBottom: ".7rem", marginLeft: "1rem" }}>
               Database
             </h2>
             <p
-              className={"has-text-centered"}
+              className={""}
               style={{
                 paddingBottom: "1.5rem",
                 marginLeft: "1rem",
@@ -152,29 +151,27 @@ const Home = () => {
           </div>
           {/* SEO */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center serv-cards"
+            className="column is-one-forth is-flex is-flex-direction-column serv-cards grow"
             style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={SEO}
               alt="custom websites"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem" }}
+              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem" }}
             />
-            <h2 className="is-size-3" style={{ paddingBottom: ".7rem" }}>
-              SEO
+            <h2 className="is-size-3" style={{ paddingBottom: ".7rem", marginLeft: "1rem" }}>
+            Search Engine Optimization (SEO)
             </h2>
             <p
-              className={"has-text-centered"}
+              className={""}
               style={{
                 paddingBottom: "1.5rem",
                 marginLeft: "1rem",
                 marginRight: "1rem",
               }}
             >
-              Want more traffic driven to your website? Customers having a hard
-              time finding you on the internet? Let us enhance your organic
-              ranking and better your Google index with our best in class SEO
-              strategy
+              Want more traffic driven to your website? Let us enhance your organic
+              ranking so you're easier to find.
             </p>
           </div>
         </div>
@@ -185,22 +182,22 @@ const Home = () => {
         >
           {/* Analytic Dashboards */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column is-align-items-center serv-cards"
+            className="column is-one-forth is-flex is-flex-direction-column serv-cards grow"
             style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={Analytics}
               alt="Analytic Dashboards"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem" }}
+              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem" }}
             />
             <h2
-              className="is-size-3 has-text-centered"
-              style={{ paddingBottom: ".7rem" }}
+              className="is-size-3 "
+              style={{ paddingBottom: ".7rem", marginLeft: "1rem"}}
             >
               Analytic Dashboards
             </h2>
             <p
-              className={"has-text-centered"}
+              className={""}
               style={{
                 paddingBottom: "1.5rem",
                 marginLeft: "1rem",
@@ -214,15 +211,14 @@ const Home = () => {
           </div>
           {/* Logo Design */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column  serv-cards"
+            className="column is-one-forth is-flex is-flex-direction-column  serv-cards grow"
             style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={LogoDesign}
               alt="custom websites"
               style={{
-                height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "1rem",
-                marginRight: "1rem",
+                height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem",
               }}
             />
             <h2 className="is-size-3" style={{
@@ -245,13 +241,13 @@ const Home = () => {
           </div>
           {/* Site Revamp*/}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column serv-cards"
+            className="column is-one-forth is-flex is-flex-direction-column serv-cards grow"
             style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
           >
             <img
               src={WebRevamp}
               alt="custom websites"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "1rem" }}
+              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem" }}
             />
             <h2 className="is-size-3" style={{
               paddingBottom: ".7rem",
