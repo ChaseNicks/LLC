@@ -22,11 +22,13 @@ button {
 
 .button {
   color: black;
+  font-weight: 800;
 }
 
 .button:hover {
-  background-color: #f9f7f7;
-  color: black !important;
+  font-weight: bolder !important;
+  background-color: rgb(43, 42, 42) !important;
+  font-size: 1.01rem !important;
 }
 
 .linkedin {
@@ -488,4 +490,12 @@ button {
   border-radius: 1rem;
   background-color: rgb(43, 42, 42);
 }
+
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+  
+  .grow:hover { 
+  transform: scale(1.1); 
+  }
 
