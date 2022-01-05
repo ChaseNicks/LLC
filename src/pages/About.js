@@ -73,11 +73,18 @@ const About = () => {
               paddingBottom: "2rem",
             }}
           >
-            <div className="box is-two-thirds column is-flex box-trust grow" style={{ background: "linear-gradient(90deg, #ff715b, #3c5ccf)" }}>
+            <div
+              className="box is-two-thirds column is-flex box-trust grow"
+              style={{ background: "linear-gradient(90deg, #ff715b, #3c5ccf)" }}
+            >
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
-                  style={{ paddingBottom: ".7rem", fontWeight: "700", color: "white" }}
+                  style={{
+                    paddingBottom: ".7rem",
+                    fontWeight: "700",
+                    color: "white",
+                  }}
                 >
                   Trust
                 </h2>
@@ -88,7 +95,7 @@ const About = () => {
                     paddingLeft: "1rem",
                     paddingRight: "1rem",
                     fontWeight: "700",
-                    color: "white"
+                    color: "white",
                   }}
                 >
                   We work for you and your trust, you will receive full
@@ -96,11 +103,18 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className=" box is-two-thirds column is-flex box-quality grow" style={{ background: "linear-gradient(90deg, #3c5ccf, #3ccf91)" }}>
+            <div
+              className=" box is-two-thirds column is-flex box-quality grow"
+              style={{ background: "linear-gradient(90deg, #3c5ccf, #3ccf91)" }}
+            >
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
-                  style={{ paddingBottom: ".7rem", fontWeight: "700", color: "white" }}
+                  style={{
+                    paddingBottom: ".7rem",
+                    fontWeight: "700",
+                    color: "white",
+                  }}
                 >
                   Quality
                 </h2>
@@ -111,19 +125,26 @@ const About = () => {
                     paddingLeft: "1rem",
                     paddingRight: "1rem",
                     fontWeight: "700",
-                    color: "white"
+                    color: "white",
                   }}
                 >
-                  Our highest priority is to deliver quality services. We 
-                  have multiple strategies to do so.
+                  Our highest priority is to deliver quality services. We have
+                  multiple strategies to do so.
                 </p>
               </div>
             </div>
-            <div className="box is-two-thirds column is-flex box-trust grow" style={{ background: "linear-gradient(90deg, #3ccf91, #972EFF)" }}>
+            <div
+              className="box is-two-thirds column is-flex box-trust grow"
+              style={{ background: "linear-gradient(90deg, #3ccf91, #972EFF)" }}
+            >
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
-                  style={{ paddingBottom: ".7rem", fontWeight: "700", color: "white" }}
+                  style={{
+                    paddingBottom: ".7rem",
+                    fontWeight: "700",
+                    color: "white",
+                  }}
                 >
                   Transparency
                 </h2>
@@ -134,20 +155,27 @@ const About = () => {
                     paddingLeft: "1rem",
                     paddingRight: "1rem",
                     fontWeight: "700",
-                    color: "white"
+                    color: "white",
                   }}
                 >
                   We focus on regular communication and transparency from the
-                  first day of cooperation. You will get full access to all 
+                  first day of cooperation. You will get full access to all
                   reports, and invitations to all meetings.
                 </p>
               </div>
             </div>
-            <div className="box is-two-thirds column is-flex box-quality grow" style={{ background: "linear-gradient(90deg, #972EFF, #ff934f)" }}>
+            <div
+              className="box is-two-thirds column is-flex box-quality grow"
+              style={{ background: "linear-gradient(90deg, #972EFF, #ff934f)" }}
+            >
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
-                  style={{ paddingBottom: ".7rem", fontWeight: "700", color: "white" }}
+                  style={{
+                    paddingBottom: ".7rem",
+                    fontWeight: "700",
+                    color: "white",
+                  }}
                 >
                   Quality
                 </h2>
@@ -158,7 +186,7 @@ const About = () => {
                     paddingLeft: "1rem",
                     paddingRight: "1rem",
                     fontWeight: "700",
-                    color: "white"
+                    color: "white",
                   }}
                 >
                   We focus on regular communication and transparency from the
@@ -243,13 +271,13 @@ const About = () => {
           }}
         >
           <p id="aboutme-para">
-            From the very beginning we knew that we wanted to share out love for
+            From the very beginning we knew that we wanted to share our love for
             tech with others in a impactful way leading us to create{" "}
             <span style={{ color: " #ff934f ", fontWeight: "650" }}>
               Digifie
             </span>
             . Our goal is to provide others with top class digital capabilities
-            to better server their audience rather that be for businesses,
+            to better serve their audience rather that be for businesses,
             creators, or individuals wanting to better showcase themselves
             online.
           </p>

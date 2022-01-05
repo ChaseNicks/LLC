@@ -13,44 +13,51 @@ const Home = () => {
   return (
     <div>
       <div className="opc-hm">
-      <div
-        className="container cont-img is-one-third"
-        style={{
-          width: "93%",
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "center",
-          height: "36rem",
-        }}
-      >
-        <div className="columns" style={{ marginLeft: "1rem", marginRight: "1rem"}}>
+        <div
+          className="container cont-img is-one-third"
+          style={{
+            width: "93%",
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            height: "36rem",
+          }}
+        >
           <div
-            className="column"
-            style={{ marginTop: "11rem", marginLeft: "1.2rem" }}
+            className="columns"
+            style={{ marginLeft: "1rem", marginRight: "1rem" }}
           >
-            <h1
-              className="is-size-2"
-              style={{ paddingBottom: "2rem", fontWeight: "boldest" }}
+            <div
+              className="column"
+              style={{ marginTop: "11rem", marginLeft: "1.2rem" }}
             >
-              Software Development Company
-            </h1>
-            <p
-              className="is-size-4 test"
-              style={{ paddingBottom: "1.3rem", fontWeight: "bold" }}
-            >
-              Empowering individuals and business owners to utilize this digital
-              age to benefit them most.
-            </p>
-            <a href="/contact">
-              <button
-                type="submit"
-                className="button grow"
-                style={{ borderColor: "#972EFF ", color: "white", backgroundColor: "black" }}
+              <h1
+                className="is-size-2"
+                style={{ paddingBottom: "2rem", fontWeight: "boldest" }}
               >
-                Get A Free Quote
-              </button>
-            </a>
-          </div>
+                Software Development Company
+              </h1>
+              <p
+                className="is-size-4 test"
+                style={{ paddingBottom: "1.3rem", fontWeight: "bold" }}
+              >
+                Empowering individuals and business owners to utilize this
+                digital age to benefit them most.
+              </p>
+              <a href="/contact">
+                <button
+                  type="submit"
+                  className="button grow"
+                  style={{
+                    borderColor: "#972EFF ",
+                    color: "white",
+                    backgroundColor: "black",
+                  }}
+                >
+                  Get A Free Quote
+                </button>
+              </a>
+            </div>
           </div>
 
           {/* <div className="column" style={{ marginBottom: ".3rem" }}>
@@ -101,12 +108,21 @@ const Home = () => {
           {/* Custome Site */}
           <div
             className="column is-one-forth is-flex is-flex-direction-column serv-cards  grow"
-            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
+            style={{
+              marginLeft: "1rem",
+              marginRight: "1rem",
+              marginTop: "2rem",
+            }}
           >
             <img
               src={Site}
               alt="custom websites"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem" }}
+              style={{
+                height: "5rem",
+                width: "5rem",
+                paddingBottom: ".4rem",
+                marginLeft: "2.2rem",
+              }}
             />
             <h2
               className="is-size-3"
@@ -128,14 +144,26 @@ const Home = () => {
           {/* Database */}
           <div
             className="column is-one-forth is-flex is-flex-direction-column serv-cards grow"
-            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
+            style={{
+              marginLeft: "1rem",
+              marginRight: "1rem",
+              marginTop: "2rem",
+            }}
           >
             <img
               src={DB}
               alt="custom websites"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem" }}
+              style={{
+                height: "5rem",
+                width: "5rem",
+                paddingBottom: ".4rem",
+                marginLeft: "2.2rem",
+              }}
             />
-            <h2 className="is-size-3" style={{ paddingBottom: ".7rem", marginLeft: "1rem" }}>
+            <h2
+              className="is-size-3"
+              style={{ paddingBottom: ".7rem", marginLeft: "1rem" }}
+            >
               Database
             </h2>
             <p
@@ -154,15 +182,27 @@ const Home = () => {
           {/* SEO */}
           <div
             className="column is-one-forth is-flex is-flex-direction-column serv-cards grow"
-            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
+            style={{
+              marginLeft: "1rem",
+              marginRight: "1rem",
+              marginTop: "2rem",
+            }}
           >
             <img
               src={SEO}
               alt="custom websites"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem" }}
+              style={{
+                height: "5rem",
+                width: "5rem",
+                paddingBottom: ".4rem",
+                marginLeft: "2.2rem",
+              }}
             />
-            <h2 className="is-size-3" style={{ paddingBottom: ".7rem", marginLeft: "1rem" }}>
-            Search Engine Optimization (SEO)
+            <h2
+              className="is-size-3"
+              style={{ paddingBottom: ".7rem", marginLeft: "1rem" }}
+            >
+              Search Engine Optimization (SEO)
             </h2>
             <p
               className={""}
@@ -172,8 +212,8 @@ const Home = () => {
                 marginRight: "1rem",
               }}
             >
-              Want more traffic driven to your website? Let us enhance your organic
-              ranking so you're easier to find.
+              Want more traffic driven to your website? Let us enhance your
+              organic ranking so you're easier to find.
             </p>
           </div>
         </div>
@@ -185,16 +225,25 @@ const Home = () => {
           {/* Analytic Dashboards */}
           <div
             className="column is-one-forth is-flex is-flex-direction-column serv-cards grow"
-            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
+            style={{
+              marginLeft: "1rem",
+              marginRight: "1rem",
+              marginTop: "2rem",
+            }}
           >
             <img
               src={Analytics}
               alt="Analytic Dashboards"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem" }}
+              style={{
+                height: "5rem",
+                width: "5rem",
+                paddingBottom: ".4rem",
+                marginLeft: "2.2rem",
+              }}
             />
             <h2
               className="is-size-3 "
-              style={{ paddingBottom: ".7rem", marginLeft: "1rem"}}
+              style={{ paddingBottom: ".7rem", marginLeft: "1rem" }}
             >
               Analytic Dashboards
             </h2>
@@ -214,19 +263,30 @@ const Home = () => {
           {/* Logo Design */}
           <div
             className="column is-one-forth is-flex is-flex-direction-column  serv-cards grow"
-            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
+            style={{
+              marginLeft: "1rem",
+              marginRight: "1rem",
+              marginTop: "2rem",
+            }}
           >
             <img
               src={LogoDesign}
               alt="custom websites"
               style={{
-                height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem",
+                height: "5rem",
+                width: "5rem",
+                paddingBottom: ".4rem",
+                marginLeft: "2.2rem",
               }}
             />
-            <h2 className="is-size-3" style={{
-              paddingBottom: ".7rem", marginLeft: "1rem",
-              marginRight: "1rem",
-            }}>
+            <h2
+              className="is-size-3"
+              style={{
+                paddingBottom: ".7rem",
+                marginLeft: "1rem",
+                marginRight: "1rem",
+              }}
+            >
               Logo Design
             </h2>
             <p
@@ -244,18 +304,30 @@ const Home = () => {
           {/* Site Revamp*/}
           <div
             className="column is-one-forth is-flex is-flex-direction-column serv-cards grow"
-            style={{ marginLeft: "1rem", marginRight: "1rem", marginTop: "2rem" }}
+            style={{
+              marginLeft: "1rem",
+              marginRight: "1rem",
+              marginTop: "2rem",
+            }}
           >
             <img
               src={WebRevamp}
               alt="custom websites"
-              style={{ height: "5rem", width: "5rem", paddingBottom: ".4rem", marginLeft: "2.2rem" }}
+              style={{
+                height: "5rem",
+                width: "5rem",
+                paddingBottom: ".4rem",
+                marginLeft: "2.2rem",
+              }}
             />
-            <h2 className="is-size-3" style={{
-              paddingBottom: ".7rem",
-              marginLeft: "1rem",
-              marginRight: "1rem",
-            }}>
+            <h2
+              className="is-size-3"
+              style={{
+                paddingBottom: ".7rem",
+                marginLeft: "1rem",
+                marginRight: "1rem",
+              }}
+            >
               Site Revamp
             </h2>
             <p

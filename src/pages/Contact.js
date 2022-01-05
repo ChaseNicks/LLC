@@ -152,7 +152,12 @@ const Contact = () => {
                     type="submit"
                     disabled={state.submitting}
                     className="button grow"
-                    style={{ borderColor: "#972EFF", fontWeight: "bold", color: "white", backgroundColor: "black" }}
+                    style={{
+                      borderColor: "#972EFF",
+                      fontWeight: "bold",
+                      color: "white",
+                      backgroundColor: "black",
+                    }}
                   >
                     Submit
                   </button>
@@ -165,10 +170,9 @@ const Contact = () => {
 
       <div
         style={{
-          backgroundColor: "black",
           height: "22rem",
           marginBottom: "4rem",
-          marginTop: "4rem",
+          marginTop: "2rem",
         }}
       >
         <h2
@@ -211,7 +215,7 @@ const Contact = () => {
       <h2
         className="has-text-centered is-size-1"
         style={{
-          marginTop: "5rem",
+          marginTop: "3rem",
           marginBottom: ".7rem",
           fontWeight: "boldest",
         }}
@@ -250,7 +254,8 @@ const Contact = () => {
                 fontWeight: "bold",
               }}
             >
-              Address: <b className="has-text-weight-medium">North Akard Street</b>
+              Address:{" "}
+              <b className="has-text-weight-medium">North Akard Street</b>
             </p>
             <p
               className="is-size-4 has-text-centered test"
@@ -261,7 +266,8 @@ const Contact = () => {
                 fontWeight: "bold",
               }}
             >
-              Email: <b className="has-text-weight-medium">digifie@support.com</b>
+              Email:{" "}
+              <b className="has-text-weight-medium">digifie@support.com</b>
             </p>
             <p
               className="is-size-4 has-text-centered test"
@@ -277,7 +283,12 @@ const Contact = () => {
           </div>
           <div className="column is-centered">
             <div
-              style={{ marginBottom: "5rem", maxWidth: "450px", marginRight: ".5rem", marginLeft: ".5rem" }}
+              style={{
+                marginBottom: "5rem",
+                maxWidth: "450px",
+                marginRight: ".5rem",
+                marginLeft: ".5rem",
+              }}
             >
               <Iframe
                 title="myFrame"

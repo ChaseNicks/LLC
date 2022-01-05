@@ -29,14 +29,11 @@ button {
   font-weight: bolder !important;
   background-color: rgb(43, 42, 42) !important;
   font-size: 1.01rem !important;
-
 }
 
 .linkedin {
   height: 6.5rem;
   width: 6.5rem;
-  margin-left: 1.2rem;
-  margin-bottom: 1rem;
 }
 
 .projects .project-grid figure {
@@ -281,7 +278,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   font-size: 1.5em;
-  padding: 4rem;
+  padding: 2rem;
 }
 
 /* Home Page Our Work */
@@ -492,20 +489,17 @@ button {
   background-color: rgb(52, 51, 51);
 }
 
-.grow { 
-  transition: all .2s ease-in-out; 
-  }
-  
-  .grow:hover { 
-  transform: scale(1.1); 
-  }
-
-.cont-img {
-    background-image: url('../src/assets/hero.jpg') !important;
-    background-size: cover;
-    border-radius: 1rem;
-    min-height: 30rem;
+.grow {
+  transition: all 0.2s ease-in-out;
 }
 
+.grow:hover {
+  transform: scale(1.1);
+}
 
-
+.cont-img {
+  background-image: url("../src/assets/hero.jpg") !important;
+  background-size: cover;
+  border-radius: 1rem;
+  min-height: 30rem;
+}
