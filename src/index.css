@@ -29,6 +29,7 @@ button {
   font-weight: bolder !important;
   background-color: rgb(43, 42, 42) !important;
   font-size: 1.01rem !important;
+
 }
 
 .linkedin {
@@ -283,7 +284,7 @@ button {
   padding: 4rem;
 }
 
-/* Our Work */
+/* Home Page Our Work */
 .wrapper {
   width: 90%;
   margin: 0 auto;
@@ -488,7 +489,7 @@ button {
 
 .serv-cards {
   border-radius: 1rem;
-  background-color: rgb(43, 42, 42);
+  background-color: hsla(0, 0%, 100%, 0.05);
 }
 
 .grow { 
@@ -498,4 +499,5 @@ button {
   .grow:hover { 
   transform: scale(1.1); 
   }
+
 

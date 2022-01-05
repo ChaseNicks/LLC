@@ -76,7 +76,7 @@ const Home = () => {
           <div
             className="justify-content-center"
             style={{
-              background: "linear-gradient(to right, #972EFF , #E197FD)",
+              background: "linear-gradient(to right, #972EFF , #ff934f)",
               height: ".18rem",
               width: "5%",
               marginBottom: "1.3rem",
@@ -85,7 +85,7 @@ const Home = () => {
         </div>
         <p
           className="has-text-centered is-size-4"
-          style={{ marginBottom: "5rem", fontWeight: "bold" }}
+          style={{ marginBottom: "3rem", fontWeight: "bold" }}
         >
           Our expertise in the digital space delivers solutions.{" "}
         </p>
@@ -285,7 +285,7 @@ const Home = () => {
             <div
               className="justify-content-center"
               style={{
-                background: "linear-gradient(to right, #972EFF , #E197FD)",
+                background: "linear-gradient(to right, #972EFF , #ff934f)",
                 height: ".18rem",
                 width: "5%",
                 marginBottom: "1.3rem",
@@ -294,7 +294,7 @@ const Home = () => {
           </div>
           <div className="is-flex is-justify-content-center">
             <p
-              className="is-size-5 is-size-5-mobile has-text-centered"
+              className="is-size-4 is-size-5-mobile has-text-centered"
               style={{
                 paddingBottom: "5.5rem",
                 maxWidth: "48rem",
@@ -389,7 +389,7 @@ const Home = () => {
             <div
               className="justify-content-center"
               style={{
-                background: "linear-gradient(to right, #972EFF , #E197FD)",
+                background: "linear-gradient(to right, #972EFF , #ff934f)",
                 height: ".18rem",
                 width: "5%",
                 marginBottom: "1.3rem",
@@ -398,7 +398,7 @@ const Home = () => {
           </div>
           <div className="is-flex is-justify-content-center">
             <p
-              className="is-size-5 is-size-5-mobile has-text-centered"
+              className="is-size-4 is-size-5-mobile has-text-centered"
               style={{
                 paddingBottom: "3rem",
                 maxWidth: "48rem",
