@@ -73,7 +73,7 @@ const About = () => {
               paddingBottom: "2rem",
             }}
           >
-            <div className="box is-two-thirds column is-flex box-trust" style={{ background: "linear-gradient(90deg, #ff715b, #3c5ccf)" }}>
+            <div className="box is-two-thirds column is-flex box-trust grow" style={{ background: "linear-gradient(90deg, #ff715b, #3c5ccf)" }}>
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
@@ -96,7 +96,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className=" box is-two-thirds column is-flex box-quality" style={{ background: "linear-gradient(90deg, #3c5ccf, #3ccf91)" }}>
+            <div className=" box is-two-thirds column is-flex box-quality grow" style={{ background: "linear-gradient(90deg, #3c5ccf, #3ccf91)" }}>
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
@@ -119,7 +119,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="box is-two-thirds column is-flex box-trust" style={{ background: "linear-gradient(90deg, #3ccf91, #972EFF)" }}>
+            <div className="box is-two-thirds column is-flex box-trust grow" style={{ background: "linear-gradient(90deg, #3ccf91, #972EFF)" }}>
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
@@ -143,7 +143,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="box is-two-thirds column is-flex box-quality" style={{ background: "linear-gradient(90deg, #972EFF, #ff934f)" }}>
+            <div className="box is-two-thirds column is-flex box-quality grow" style={{ background: "linear-gradient(90deg, #972EFF, #ff934f)" }}>
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
@@ -211,7 +211,7 @@ const About = () => {
             <div class="column is-three-fifths">
               <div className="founder">
                 <img
-                  className="pic"
+                  className="pic grow"
                   style={{ padding: "1rem", border: "#E197FD solid 1px" }}
                   src={chase}
                   alt="asdasd"
@@ -224,7 +224,7 @@ const About = () => {
             <div className="column is-three-fifths">
               <div className="founder">
                 <img
-                  className="pic"
+                  className="pic grow"
                   style={{ padding: "1rem", border: "#E197FD solid 1px" }}
                   src={leland}
                   alt="asdasd"

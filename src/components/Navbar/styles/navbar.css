@@ -9,6 +9,7 @@ nav {
 .navbar-item {
   margin-right: 1rem;
   color: white !important;
+  font-weight: bolder !important;
 }
 
 .navbar-menu {
@@ -38,10 +39,14 @@ span {
 
 .cont-hov:hover {
   /* color: #972eff !important; */
-  background-color: hsla(0, 0%, 100%, 0.05) !important;
+  background-color: rgb(43, 42, 42) !important;
   font-weight: bolder;
 }
 
 .hov:hover {
   font-weight: bolder;
+}
+
+.navbar-item, .navbar-link {
+  padding: 0.5rem 2.75rem !important; 
 }

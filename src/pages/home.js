@@ -44,7 +44,7 @@ const Home = () => {
             <a href="/contact">
               <button
                 type="submit"
-                className="button"
+                className="button grow"
                 style={{ borderColor: "#972EFF ", color: "white", backgroundColor: "black" }}
               >
                 Get A Free Quote

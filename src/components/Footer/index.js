@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer" style={{ background: "black" }}>
       <div>
-        <div className="footer-brand">
+        <div className="footer-brand grow">
           <Link
             to="/"
             className="is-size-3 logo"
