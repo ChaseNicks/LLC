@@ -85,7 +85,7 @@ const Home = () => {
         </div>
         <p
           className="has-text-centered is-size-4"
-          style={{ marginBottom: "5rem", fontWeight: "bold" }}
+          style={{ marginBottom: "3rem", fontWeight: "bold" }}
         >
           Our expertise in the digital space delivers solutions.{" "}
         </p>
