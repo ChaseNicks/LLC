@@ -45,7 +45,7 @@ const About = () => {
         <h2
           className="has-text-centered is-size-1"
           style={{
-            paddingTop: "1.4rem",
+            paddingTop: "2.1rem",
             marginBottom: "1rem",
             fontWeight: "boldest",
             color: "white",
@@ -60,99 +60,105 @@ const About = () => {
               background: "linear-gradient(to right, #972EFF , #ff934f)",
               height: ".18rem",
               width: "5%",
-              marginBottom: "2rem",
+              marginBottom: "2.5rem",
             }}
           ></div>
         </div>
         <div style={{ marginLeft: "1rem", marginRight: "1.1rem" }}>
           <div
-            className="is-flex is-flex-wrap-wrap"
+            className="is-flex is-flex-wrap-wrap columns is-centered"
             style={{
               height: "fit-content",
               rowGap: "1.2rem",
               paddingBottom: "2rem",
             }}
           >
-            <div className=" box is-half is-flex box-trust">
+            <div className="box is-two-thirds column is-flex box-trust" style={{ background: "linear-gradient(90deg, #ff715b, #3c5ccf)" }}>
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
-                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
+                  style={{ paddingBottom: ".7rem", fontWeight: "700", color: "white" }}
                 >
                   Trust
                 </h2>
                 <p
-                  className="has-text-left is-size-5"
+                  className="has-text-left is-size-4"
                   style={{
                     paddingBottom: ".7rem",
                     paddingLeft: "1rem",
                     paddingRight: "1rem",
+                    fontWeight: "700",
+                    color: "white"
                   }}
                 >
-                  We focus on regular communication and transparency from the
-                  first day of cooperation. You will get full access to Jira and
-                  Repo, regular reports, and invitations to all the meetings.
+                  We work for you and your trust, you will receive full
+                  techinical support from us 24/7.
                 </p>
               </div>
             </div>
-            <div className=" box is-half is-flex box-quality" style={{}}>
+            <div className=" box is-two-thirds column is-flex box-quality" style={{ background: "linear-gradient(90deg, #3c5ccf, #3ccf91)" }}>
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
-                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
+                  style={{ paddingBottom: ".7rem", fontWeight: "700", color: "white" }}
                 >
                   Quality
                 </h2>
                 <p
-                  className="has-text-left is-size-5"
+                  className="has-text-left is-size-4"
                   style={{
                     paddingBottom: ".7rem",
                     paddingLeft: "1rem",
                     paddingRight: "1rem",
+                    fontWeight: "700",
+                    color: "white"
                   }}
                 >
-                  We focus on regular communication and transparency from the
-                  first day of cooperation. You will get full access to Jira and
-                  Repo, regular reports, and invitations to all the meetings.
+                  Our highest priority is to deliver quality services. We 
+                  have multiple strategies to do so.
                 </p>
               </div>
             </div>
-            <div className=" box is-half is-flex box-trust ">
+            <div className="box is-two-thirds column is-flex box-trust" style={{ background: "linear-gradient(90deg, #3ccf91, #972EFF)" }}>
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
-                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
+                  style={{ paddingBottom: ".7rem", fontWeight: "700", color: "white" }}
                 >
                   Transparency
                 </h2>
                 <p
-                  className="has-text-left is-size-5"
+                  className="has-text-left is-size-4"
                   style={{
                     paddingBottom: ".7rem",
                     paddingLeft: "1rem",
                     paddingRight: "1rem",
+                    fontWeight: "700",
+                    color: "white"
                   }}
                 >
                   We focus on regular communication and transparency from the
-                  first day of cooperation. You will get full access to Jira and
-                  Repo, regular reports, and invitations to all the meetings.
+                  first day of cooperation. You will get full access to all 
+                  reports, and invitations to all meetings.
                 </p>
               </div>
             </div>
-            <div className=" box is-half is-flex box-quality" style={{}}>
+            <div className="box is-two-thirds column is-flex box-quality" style={{ background: "linear-gradient(90deg, #972EFF, #ff934f)" }}>
               <div className="">
                 <h2
                   className="has-text-centered is-size-2 is-size-3-mobile"
-                  style={{ paddingBottom: ".7rem", fontWeight: "boldest" }}
+                  style={{ paddingBottom: ".7rem", fontWeight: "700", color: "white" }}
                 >
                   Quality
                 </h2>
                 <p
-                  className="has-text-left is-size-5"
+                  className="has-text-left is-size-4"
                   style={{
                     paddingBottom: ".7rem",
                     paddingLeft: "1rem",
                     paddingRight: "1rem",
+                    fontWeight: "700",
+                    color: "white"
                   }}
                 >
                   We focus on regular communication and transparency from the
@@ -239,7 +245,7 @@ const About = () => {
           <p id="aboutme-para">
             From the very beginning we knew that we wanted to share out love for
             tech with others in a impactful way leading us to create{" "}
-            <span style={{ color: " #ff934f ", fontWeight: "600" }}>
+            <span style={{ color: " #ff934f ", fontWeight: "650" }}>
               Digifie
             </span>
             . Our goal is to provide others with top class digital capabilities
