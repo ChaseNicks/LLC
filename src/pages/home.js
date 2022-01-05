@@ -107,7 +107,7 @@ const Home = () => {
         >
           {/* Custome Site */}
           <div
-            className="column is-one-forth is-flex is-flex-direction-column serv-cards  grow"
+            className="column is-one-forth is-flex is-flex-direction-column serv-cards grow"
             style={{
               marginLeft: "1rem",
               marginRight: "1rem",

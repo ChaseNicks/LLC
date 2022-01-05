@@ -74,7 +74,7 @@ const About = () => {
             }}
           >
             <div
-              className="box is-two-thirds column is-flex box-trust grow"
+              className="box is-7 column is-flex box-trust grow"
               style={{ background: "linear-gradient(90deg, #ff715b, #3c5ccf)" }}
             >
               <div className="">
@@ -104,7 +104,7 @@ const About = () => {
               </div>
             </div>
             <div
-              className=" box is-two-thirds column is-flex box-quality grow"
+              className=" box is-7 column is-flex box-quality grow"
               style={{ background: "linear-gradient(90deg, #3c5ccf, #3ccf91)" }}
             >
               <div className="">
@@ -134,7 +134,7 @@ const About = () => {
               </div>
             </div>
             <div
-              className="box is-two-thirds column is-flex box-trust grow"
+              className="box is-7 column is-flex box-trust grow"
               style={{ background: "linear-gradient(90deg, #3ccf91, #972EFF)" }}
             >
               <div className="">
@@ -165,7 +165,7 @@ const About = () => {
               </div>
             </div>
             <div
-              className="box is-two-thirds column is-flex box-quality grow"
+              className="box is-7 column is-flex box-quality grow"
               style={{ background: "linear-gradient(90deg, #972EFF, #ff934f)" }}
             >
               <div className="">
