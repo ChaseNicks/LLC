@@ -151,7 +151,7 @@ const Contact = () => {
                   <button
                     type="submit"
                     disabled={state.submitting}
-                    className="button"
+                    className="button grow"
                     style={{ borderColor: "#972EFF", fontWeight: "bold", color: "white", backgroundColor: "black" }}
                   >
                     Submit
@@ -200,7 +200,7 @@ const Contact = () => {
             rel="noreferrer"
           >
             <img
-              className="linkedin"
+              className="linkedin grow"
               style={{ backgroundColor: "white" }}
               src={linkedin}
               alt="LinkedIn"

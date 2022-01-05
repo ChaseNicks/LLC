@@ -32,7 +32,7 @@ export default class Navbar extends React.Component {
         <div className="navbar-start" style={{ marginRight: "3rem", marginLeft: "3rem"}}>
           <div className="navbar-brand">
             <Link to="/home" className="is-capitalized is-size-3 logo" style={{ display: "flex"}}>
-              <img src="tab-icon.png" alt="Digifie" style={{ height: "4rem", width: "4rem"}}/>
+              <img className="grow" src="tab-icon.png" alt="Digifie" style={{ height: "4rem", width: "4rem"}}/>
             </Link>
             <NavbarBurger
             active={this.state.activeMenu}
@@ -65,7 +65,7 @@ export default class Navbar extends React.Component {
           </Link>
 
           <Link
-            className="navbar-item is-capitalized is-size-4 nav-item-styles cont-hov"
+            className="navbar-item is-capitalized is-size-4 nav-item-styles cont-hov grow"
             to="/contact"
             style={{ border: "2px #972EFF solid", borderRadius: "5rem"}}
           >
