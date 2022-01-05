@@ -12,20 +12,21 @@ import ex1 from "../assets/ex1.png";
 const Home = () => {
   return (
     <div>
+      <div className="opc-hm">
       <div
         className="container cont-img is-one-third"
         style={{
-          width: "100%",
+          width: "93%",
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
-          height: "fit-content",
+          height: "36rem",
         }}
       >
-        <div className="columns">
+        <div className="columns" style={{ marginLeft: "1rem", marginRight: "1rem"}}>
           <div
             className="column"
-            style={{ marginTop: "2rem", marginLeft: "1.2rem" }}
+            style={{ marginTop: "11rem", marginLeft: "1.2rem" }}
           >
             <h1
               className="is-size-2"
@@ -49,6 +50,7 @@ const Home = () => {
                 Get A Free Quote
               </button>
             </a>
+          </div>
           </div>
 
           {/* <div className="column" style={{ marginBottom: ".3rem" }}>
