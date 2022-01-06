@@ -4,14 +4,20 @@ import React from "react";
 const Services = () => {
   return (
     <div>
-      <div className="" style={{ height: "fit-content", width: "100%" }}>
-        <div style={{ marginBottom: "-0.43rem" }}>
-          {/* <img
-              src={Hero}
-              alt="Web Development"
-              style={{ height: "30rem", width: "100%", marginTop: "0.5rem" }}
-            /> */}
-        </div>
+      <div className="is-flex is-justify-content-center">
+        <h1
+          className="is-size-2 is-size-4-mobile has-text-centered"
+          style={{
+            padding: ".5rem",
+            marginTop: "5rem",
+            maxWidth: "48rem",
+            fontWeight: "900",
+          }}
+        >
+          {" "}
+          Custom software development services from
+          professionals you’ll enjoy working with
+        </h1>
       </div>
     </div>
   );
