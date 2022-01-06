@@ -265,7 +265,7 @@ const About = () => {
         <div
           className="is-size-5"
           style={{
-            marginTop: "1rem",
+            marginTop: "2.5rem",
             marginRight: "2rem",
             marginLeft: "2rem",
           }}
