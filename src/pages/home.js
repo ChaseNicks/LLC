@@ -33,7 +33,7 @@ const Home = () => {
             >
               <h1
                 className="is-size-2"
-                style={{ paddingBottom: "2rem", fontWeight: "boldest" }}
+                style={{ paddingBottom: "2rem", fontWeight: "bolder" }}
               >
                 Software Development Company
               </h1>
@@ -651,62 +651,49 @@ const Home = () => {
                 </div>{" "}
               </a>
             </div>
-
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-              <a
-                href="https://coinbullapp.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                <div class="container">
-                  <div class="front" style={{ backgroundImage: `url(${ex1})` }}>
-                    <div class="inner">
-                      <p>CoinBull</p>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="inner">
-                      <p>
-                        A crypto application that gives users insight on current
-                        market conditions, allowing users to log in and save
-                        their favorite coins. With charting ability of
-                        individual crypto's.
-                      </p>
-                    </div>
-                  </div>
-                </div>{" "}
-              </a>
-            </div>
-
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-              <a
-                href="https://coinbullapp.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {" "}
-                <div class="container">
-                  <div class="front" style={{ backgroundImage: `url(${ex1})` }}>
-                    <div class="inner">
-                      <p>CoinBull</p>
-                    </div>
-                  </div>
-                  <div class="back">
-                    <div class="inner">
-                      <p>
-                        A crypto application that gives users insight on current
-                        market conditions, allowing users to log in and save
-                        their favorite coins. Also has charting ability.
-                      </p>
-                    </div>
-                  </div>
-                </div>{" "}
-              </a>
-            </div>
           </div>
         </div>
       </section>
+
+      {/* Our Work */}
+
+      <div className="container" style={{ maxWidth:"76rem", marginBottom: "4rem"}}>
+        <div className="columns" style={{ paddingLeft: "1.5rem", paddingRight: "1.5rem"}}>
+          <div className="column is-two-third is-flex-direction-column is-flex-align-items-center" style={{ marginTop: "8rem"}}>
+            <div style={{ marginBottom: "4rem"}}>
+              <h2 className="is-size-3" style={{ fontWeight: "bolder", marginBottom: "1.5rem" }}> Get Your Free Quote Today with <a href="/contact"><span className="grow" style={{ color: "#972eff", fontWeight: "1000"}}>Digifie</span></a></h2>
+              <a href="/contact">
+                <button
+                  type="submit"
+                  className="button grow"
+                  style={{
+                    borderColor: "#972EFF ",
+                    color: "white",
+                    backgroundColor: "black",
+                  }}
+                >
+                  Get A Free Quote
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div className="column is-one-third is-size-5" style={{ fontWeight: "bolder"}}>
+
+            <div style={{ marginBottom: "1.5rem"}}>1. Intro call: <span style={{ color: "#959595"}}>Let's deep-dive into the profile requirement & collect extensive qualitative & quantitive traits you're looking for</span></div>
+
+            <div style={{ marginBottom: "1.5rem"}}>2. We get to work: <span style={{ color: "#959595"}}>We'll canvas existing relationships and the market using hyper-targeted searches to identify perfect candidates to interview</span></div>
+
+            <div>3. Hire your dream team: <span style={{ color: "#959595"}}>We promise a better experience and faster time-to-hires than the traditional firms
+            </span></div>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
     </div>
   );
 };
