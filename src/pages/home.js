@@ -123,7 +123,8 @@ const Home = () => {
                 height: "5rem",
                 width: "5rem",
                 paddingBottom: ".4rem",
-                marginLeft: "2.2rem",
+                marginTop: "1.7rem",
+                marginLeft: "2.2rem"
               }}
             />
             <h2
@@ -136,7 +137,7 @@ const Home = () => {
               style={{
                 paddingBottom: "1.5rem",
                 marginLeft: "1rem",
-                marginRight: "1rem",
+                marginRight: "1rem"
               }}
             >
               Best in class site built with React and other modern architecture
@@ -159,6 +160,7 @@ const Home = () => {
                 height: "5rem",
                 width: "5rem",
                 paddingBottom: ".4rem",
+                marginTop: "1.7rem",
                 marginLeft: "2.2rem",
               }}
             />
@@ -197,6 +199,7 @@ const Home = () => {
                 height: "5rem",
                 width: "5rem",
                 paddingBottom: ".4rem",
+                marginTop: "1.7rem",
                 marginLeft: "2.2rem",
               }}
             />
@@ -204,7 +207,7 @@ const Home = () => {
               className="is-size-3"
               style={{ paddingBottom: ".7rem", marginLeft: "1rem" }}
             >
-              Search Engine Optimization (SEO)
+              Search Engine Opt. (SEO)
             </h2>
             <p
               className={""}
@@ -240,6 +243,7 @@ const Home = () => {
                 height: "5rem",
                 width: "5rem",
                 paddingBottom: ".4rem",
+                marginTop: "1.7rem",
                 marginLeft: "2.2rem",
               }}
             />
@@ -278,6 +282,7 @@ const Home = () => {
                 height: "5rem",
                 width: "5rem",
                 paddingBottom: ".4rem",
+                marginTop: "1.7rem",
                 marginLeft: "2.2rem",
               }}
             />
@@ -319,6 +324,7 @@ const Home = () => {
                 height: "5rem",
                 width: "5rem",
                 paddingBottom: ".4rem",
+                marginTop: "1.7rem",
                 marginLeft: "2.2rem",
               }}
             />
@@ -455,54 +461,56 @@ const Home = () => {
       {/* Call to Action */}
       <div className="container" style={{ marginTop: "5rem" }}>
         <div className="columns">
-          <div className="column is-one-third" style={{ backgroundColor: "#232323 ", borderRadius: "2rem", marginRight: ".5rem", marginLeft: ".5rem" }}>
-            <div style={{ padding: ".5rem .5rem 1rem .5rem"}}>
-            <div style={{ marginTop: ".2rem"}}>
-              <h1 className="is-size-2" style={{ fontWeight: "bolder" }}>
-                Client First
-              </h1>
-              <p className="is-size-4" style={{ marginTop: "1rem"}}>
-                Traditional consultants have transactional relationships with candidates.
-              </p>
-              <p className="is-size-4" style={{ fontWeight: "bolder", color: "#972eff" }}>We're different</p>
-            </div>
+          <div className="column is-one-third" style={{ backgroundColor: "#232323 ", borderRadius: "1rem", marginRight: ".5rem", marginLeft: ".5rem" }}>
+            <div style={{ padding: ".5rem .5rem 1rem .5rem" }}>
+              <div style={{ marginTop: ".4rem" }}>
+                <h1 className="is-size-2" style={{ fontWeight: "bolder" }}>
+                  Client First
+                </h1>
+                <p className="is-size-4" style={{ marginTop: "1rem" }}>
+                  Traditional consultants have transactional relationships with candidates.
+                </p>
+                <p className="is-size-4" style={{ fontWeight: "bolder", color: "#972eff" }}>We're different</p>
+              </div>
 
-            <div style={{ marginTop: "3rem" }}>
-              <div style={{ display: "flex", flexDirection: "row" }}>
-                <div style={{ display: "flex", alignItems: "center", width: "5.5rem", marginRight: "1rem" }}>
-                  <img src={check} alt="developers" style={{ height: "2.5rem", width: "2.5rem" }} />
+              <div style={{ marginTop: "2rem" }}>
+                <div style={{ display: "flex", flexDirection: "row" }}>
+                  <div style={{ display: "flex", alignItems: "center", width: "5.5rem", marginRight: "1rem" }}>
+                    <img src={check} alt="developers" style={{ height: "2.5rem", width: "2.5rem" }} />
+                  </div>
+                  <h1 className="is-size-5">Putting our clients in the center of everything we do is highest priority</h1>
                 </div>
-                <h1 className="is-size-5">Putting our clients in the center of everything we do is highest priority</h1>
-              </div>
-              <div style={{ display: "flex", flexDirection: "row", marginTop: "1.5rem" }}>
-                <div style={{ display: "flex", alignItems: "center", width: "5.5rem", marginRight: "1rem" }}>
-                  <img src={check} alt="developers" style={{ height: "2.5rem", width: "2.5rem" }} />
+                <div style={{ display: "flex", flexDirection: "row", marginTop: "1.5rem" }}>
+                  <div style={{ display: "flex", alignItems: "center", width: "5.5rem", marginRight: "1rem" }}>
+                    <img src={check} alt="developers" style={{ height: "2.5rem", width: "2.5rem" }} />
+                  </div>
+                  <h1 className="is-size-5">We want to know your future goals so we can help meet them</h1>
                 </div>
-                <h1 className="is-size-5">We want to know your future goals so we can help meet them</h1>
-              </div>
-              <div style={{ display: "flex", flexDirection: "row", marginTop: "1.5rem" }}>
-                <div style={{ display: "flex", alignItems: "center", width: "5.5rem", marginRight: "1rem" }}>
-                  <img src={check} alt="developers" style={{ height: "2.5rem", width: "2.5rem" }} />
+                <div style={{ display: "flex", flexDirection: "row", marginTop: "1.5rem" }}>
+                  <div style={{ display: "flex", alignItems: "center", width: "5.5rem", marginRight: "1rem" }}>
+                    <img src={check} alt="developers" style={{ height: "2.5rem", width: "2.5rem" }} />
+                  </div>
+                  <h1 className="is-size-5">Our goal is the be the best and that will always reflect in our services</h1>
                 </div>
-                <h1 className="is-size-5">Our goal is the be the best and that will always reflect in our services</h1>
               </div>
-            </div>
 
-            <div style={{ marginTop: "3rem", marginLeft: "2rem"}}>
-              <a href="/contact">
-                <button
-                  type="submit"
-                  className="button grow"
-                  style={{
-                    borderColor: "#972EFF ",
-                    color: "white",
-                    backgroundColor: "black",
-                  }}
-                >
-                  Get A Free Quote
-                </button>
-              </a>
-            </div>
+              <div style={{ marginTop: "2rem", marginLeft: "2rem" }}>
+                <a href="/contact">
+                  <button
+                    type="submit"
+                    className="button grow is-size-5"
+                    style={{
+                      borderColor: "#972EFF ",
+                      color: "white",
+                      backgroundColor: "black",
+                      width: "15rem",
+                      height: "3rem"
+                    }}
+                  >
+                    Get A Free Quote
+                  </button>
+                </a>
+              </div>
 
             </div>
           </div>

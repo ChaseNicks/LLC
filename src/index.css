@@ -116,7 +116,7 @@ button {
   height: 2px;
   top: calc(50% - 1px);
   right: 8px;
-  background: linear-gradient(to bottom, #972eff, #e197fd);
+  background: linear-gradient(to bottom, #972eff, #ff934f);
   z-index: 1;
 }
 
@@ -505,5 +505,5 @@ button {
 }
 
 .img-cta {
-  border-radius: 2rem;
+  border-radius: 1rem;
 }

@@ -283,6 +283,24 @@ const About = () => {
           </p>
         </div>
       </div>
+      <div className="is-flex is-justify-content-center" style={{ marginTop: "8rem" }}>
+        <div className="is-flex is-flex-direction-column is-justify-content-center is-align-items-center" style={{ marginBottom: "4rem" }}>
+          <h2 className="is-size-3" style={{ fontWeight: "bolder", marginBottom: "1.5rem" }}> Get Your Free Quote Today with <a href="/contact"><span className="grow" style={{ color: "#972eff", fontWeight: "1000" }}>Digifie</span></a></h2>
+          <a href="/contact">
+            <button
+              type="submit"
+              className="button grow"
+              style={{
+                borderColor: "#972EFF ",
+                color: "white",
+                backgroundColor: "black",
+              }}
+            >
+              Get A Free Quote
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
