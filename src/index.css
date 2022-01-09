@@ -503,3 +503,7 @@ button {
   border-radius: 1rem;
   min-height: 30rem;
 }
+
+.img-cta {
+  border-radius: 2rem;
+}
