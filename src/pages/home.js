@@ -8,6 +8,8 @@ import Analytics from "../assets/analytics.png";
 import LogoDesign from "../assets/LogoDesign.png";
 import WebRevamp from "../assets/revamp.png";
 import ex1 from "../assets/ex1.png";
+import cta from "../assets/cta.jpeg";
+import check from "../assets/check.png";
 
 const Home = () => {
   return (
@@ -450,6 +452,71 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Call to Action */}
+      <div className="container" style={{ marginTop: "5rem" }}>
+        <div className="columns">
+          <div className="column is-one-third" style={{ backgroundColor: "#232323 ", borderRadius: "2rem", marginRight: ".5rem", marginLeft: ".5rem" }}>
+            <div style={{ padding: ".5rem .5rem 1rem .5rem"}}>
+            <div style={{ marginTop: ".2rem"}}>
+              <h1 className="is-size-2" style={{ fontWeight: "bolder" }}>
+                Client First
+              </h1>
+              <p className="is-size-4" style={{ marginTop: "1rem"}}>
+                Traditional consultants have transactional relationships with candidates.
+              </p>
+              <p className="is-size-4" style={{ fontWeight: "bolder", color: "#972eff" }}>We're different</p>
+            </div>
+
+            <div style={{ marginTop: "3rem" }}>
+              <div style={{ display: "flex", flexDirection: "row" }}>
+                <div style={{ display: "flex", alignItems: "center", width: "5.5rem", marginRight: "1rem" }}>
+                  <img src={check} alt="developers" style={{ height: "2.5rem", width: "2.5rem" }} />
+                </div>
+                <h1 className="is-size-5">Putting our clients in the center of everything we do is highest priority</h1>
+              </div>
+              <div style={{ display: "flex", flexDirection: "row", marginTop: "1.5rem" }}>
+                <div style={{ display: "flex", alignItems: "center", width: "5.5rem", marginRight: "1rem" }}>
+                  <img src={check} alt="developers" style={{ height: "2.5rem", width: "2.5rem" }} />
+                </div>
+                <h1 className="is-size-5">We want to know your future goals so we can help meet them</h1>
+              </div>
+              <div style={{ display: "flex", flexDirection: "row", marginTop: "1.5rem" }}>
+                <div style={{ display: "flex", alignItems: "center", width: "5.5rem", marginRight: "1rem" }}>
+                  <img src={check} alt="developers" style={{ height: "2.5rem", width: "2.5rem" }} />
+                </div>
+                <h1 className="is-size-5">Our goal is the be the best and that will always reflect in our services</h1>
+              </div>
+            </div>
+
+            <div style={{ marginTop: "3rem", marginLeft: "2rem"}}>
+              <a href="/contact">
+                <button
+                  type="submit"
+                  className="button grow"
+                  style={{
+                    borderColor: "#972EFF ",
+                    color: "white",
+                    backgroundColor: "black",
+                  }}
+                >
+                  Get A Free Quote
+                </button>
+              </a>
+            </div>
+
+            </div>
+          </div>
+
+
+          <div className="column is-two-thirds">
+            <img className="img-cta" src={cta} alt="software development trust quality" />
+          </div>
+
+
+
+        </div>
+      </div>
+
       {/* Our Work */}
       <section style={{ paddingTop: "2.2rem", marginTop: "3rem" }}>
         <div className="has-text-centered">
@@ -655,13 +722,13 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Our Work */}
+      {/* Call to Action */}
 
-      <div className="container" style={{ maxWidth:"76rem", marginBottom: "4rem"}}>
-        <div className="columns" style={{ paddingLeft: "1.5rem", paddingRight: "1.5rem"}}>
-          <div className="column is-two-third is-flex-direction-column is-flex-align-items-center" style={{ marginTop: "8rem"}}>
-            <div style={{ marginBottom: "4rem"}}>
-              <h2 className="is-size-3" style={{ fontWeight: "bolder", marginBottom: "1.5rem" }}> Get Your Free Quote Today with <a href="/contact"><span className="grow" style={{ color: "#972eff", fontWeight: "1000"}}>Digifie</span></a></h2>
+      <div className="container" style={{ maxWidth: "76rem", marginBottom: "4rem" }}>
+        <div className="columns" style={{ paddingLeft: "1.5rem", paddingRight: "1.5rem" }}>
+          <div className="column is-two-third is-flex-direction-column is-flex-align-items-center" style={{ marginTop: "8rem" }}>
+            <div style={{ marginBottom: "4rem" }}>
+              <h2 className="is-size-3" style={{ fontWeight: "bolder", marginBottom: "1.5rem" }}> Get Your Free Quote Today with <a href="/contact"><span className="grow" style={{ color: "#972eff", fontWeight: "1000" }}>Digifie</span></a></h2>
               <a href="/contact">
                 <button
                   type="submit"
@@ -678,13 +745,13 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="column is-one-third is-size-5" style={{ fontWeight: "bolder"}}>
+          <div className="column is-one-third is-size-5" style={{ fontWeight: "bolder" }}>
 
-            <div style={{ marginBottom: "1.5rem"}}>1. Intro call: <span style={{ color: "#959595"}}>Let's deep-dive into the profile requirement & collect extensive qualitative & quantitive traits you're looking for</span></div>
+            <div className="grow" style={{ marginBottom: "1.5rem" }}>1. Intro call: <span style={{ color: "#959595" }}>Let's deep-dive into the profile requirement & collect extensive qualitative & quantitive traits you're looking for</span></div>
 
-            <div style={{ marginBottom: "1.5rem"}}>2. We get to work: <span style={{ color: "#959595"}}>We'll canvas existing relationships and the market using hyper-targeted searches to identify perfect candidates to interview</span></div>
+            <div className="grow" style={{ marginBottom: "1.5rem" }}>2. We get to work: <span style={{ color: "#959595" }}>We'll canvas existing relationships and the market using hyper-targeted searches to identify perfect candidates to interview</span></div>
 
-            <div>3. Hire your dream team: <span style={{ color: "#959595"}}>We promise a better experience and faster time-to-hires than the traditional firms
+            <div className="grow">3. Hire your dream team: <span style={{ color: "#959595" }}>We promise a better experience and faster time-to-hires than the traditional firms
             </span></div>
 
 
