@@ -1,5 +1,10 @@
 import React from "react";
-// import Hero from "../assets/contactHeroCropped.jpeg";
+import maintain from "../assets/webmaintenance.png";
+import test from "../assets/test.png";
+import proto from "../assets/blueprint.png";
+import brain from "../assets/brain.png";
+import define from "../assets/define.png";
+import comm from "../assets/comm.png";
 
 const Services = () => {
   return (
@@ -85,30 +90,82 @@ const Services = () => {
 
           <div
             className="column is-half"
-            style={{ marginLeft: "1rem", marginTop: "3rem" }}
+            style={{ marginLeft: "1rem", marginTop: "4rem" }}
           >
-            {/* 1st row of columns*/}
+            {/* 1st row of columns  */}
             <div className="columns">
               <div
-                className="column is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
+                className="column srv-tiles is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
                 style={{
                   marginLeft: ".5rem",
                   marginRight: ".5rem",
                   border: "1.2px solid #ff934f",
                 }}
               >
-                <h2
-                  className="is-size-3 has-text-centered"
+                <img src={comm} alt="developer" style={{ height: "4rem", width: "4rem"}} />
+                <p
+                  className={"tile-p  is-size-5"}
                   style={{
-                    paddingBottom: ".7rem",
-                    // marginLeft: "1rem",
-                    // marginRight: "1rem",
+                    marginLeft: "1rem",
+                    marginRight: "1rem",
                   }}
                 >
-                  SVG
-                </h2>
+                  Empathize
+                </p>
+              </div>
+              <div
+                className="column srv-tiles is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
+                style={{
+                  marginLeft: ".5rem",
+                  marginRight: ".5rem",
+                  border: "1.2px solid #ff934f",
+                }}
+              >
+                <img src={define} alt="developer" style={{ height: "4rem", width: "4rem"}} />
                 <p
-                  className={""}
+                  className={"tile-p  is-size-5"}
+                  style={{
+                    marginLeft: "1rem",
+                    marginRight: "1rem",
+                  }}
+                >
+                  Define
+                </p>
+              </div>
+              <div
+                className="column srv-tiles is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
+                style={{
+                  marginLeft: ".5rem",
+                  marginRight: ".5rem",
+                  border: "1.2px solid #ff934f",
+                }}
+              >
+                <img src={brain} alt="developer" style={{ height: "4rem", width: "4rem"}} />
+                <p
+                  className={"tile-p  is-size-5"}
+                  style={{
+                    marginLeft: "1rem",
+                    marginRight: "1rem",
+                  }}
+                >
+                  Ideate
+                </p>
+              </div>
+            </div>
+
+            {/* 2ndrow of columns*/}
+            <div className="columns"  style={{ marginTop: "1.5rem" }}>
+              <div
+                className="column srv-tiles is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
+                style={{
+                  marginLeft: ".5rem",
+                  marginRight: ".5rem",
+                  border: "1.2px solid #ff934f",
+                }}
+              >
+                <img src={maintain} alt="developer" style={{ height: "4rem", width: "4rem" }} />
+                <p
+                  className={"tile-p is-size-5"}
                   style={{
                     marginLeft: "1rem",
                     marginRight: "1rem",
@@ -118,25 +175,16 @@ const Services = () => {
                 </p>
               </div>
               <div
-                className="column is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
+                className="column srv-tiles is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
                 style={{
                   marginLeft: ".5rem",
                   marginRight: ".5rem",
                   border: "1.2px solid #ff934f",
                 }}
               >
-                <h2
-                  className="is-size-3 has-text-centered"
-                  style={{
-                    paddingBottom: ".7rem",
-                    marginLeft: "1rem",
-                    marginRight: "1rem",
-                  }}
-                >
-                  SVG
-                </h2>
+                <img src={test} alt="developer" style={{ height: "4rem", width: "4rem" }} />
                 <p
-                  className={""}
+                  className={"tile-p is-size-5"}
                   style={{
                     marginLeft: "1rem",
                     marginRight: "1rem",
@@ -146,25 +194,16 @@ const Services = () => {
                 </p>
               </div>
               <div
-                className="column is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
+                className="column srv-tiles is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
                 style={{
                   marginLeft: ".5rem",
                   marginRight: ".5rem",
                   border: "1.2px solid #ff934f",
                 }}
               >
-                <h2
-                  className="is-size-3 has-text-centered"
-                  style={{
-                    paddingBottom: ".7rem",
-                    marginLeft: "1rem",
-                    marginRight: "1rem",
-                  }}
-                >
-                  SVG
-                </h2>
+                <img src={proto} alt="developer" style={{ height: "4rem", width: "4rem" }} />
                 <p
-                  className={""}
+                  className={"tile-p  is-size-5"}
                   style={{
                     marginLeft: "1rem",
                     marginRight: "1rem",
@@ -175,93 +214,7 @@ const Services = () => {
               </div>
             </div>
 
-            {/* 2nd row of columns  */}
-            <div className="columns" style={{ marginTop: "1.5rem" }}>
-              <div
-                className="column is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
-                style={{
-                  marginLeft: ".5rem",
-                  marginRight: ".5rem",
-                  border: "1.2px solid #ff934f",
-                }}
-              >
-                <h2
-                  className="is-size-3 has-text-centered"
-                  style={{
-                    paddingBottom: ".7rem",
-                    marginLeft: "1rem",
-                    marginRight: "1rem",
-                  }}
-                >
-                  SVG
-                </h2>
-                <p
-                  className={""}
-                  style={{
-                    marginLeft: "1rem",
-                    marginRight: "1rem",
-                  }}
-                >
-                  Maintain
-                </p>
-              </div>
-              <div
-                className="column is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
-                style={{
-                  marginLeft: ".5rem",
-                  marginRight: ".5rem",
-                  border: "1.2px solid #ff934f",
-                }}
-              >
-                <h2
-                  className="is-size-3 has-text-centered"
-                  style={{
-                    paddingBottom: ".7rem",
-                    marginLeft: "1rem",
-                    marginRight: "1rem",
-                  }}
-                >
-                  SVG
-                </h2>
-                <p
-                  className={""}
-                  style={{
-                    marginLeft: "1rem",
-                    marginRight: "1rem",
-                  }}
-                >
-                  Test
-                </p>
-              </div>
-              <div
-                className="column is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
-                style={{
-                  marginLeft: ".5rem",
-                  marginRight: ".5rem",
-                  border: "1.2px solid #ff934f",
-                }}
-              >
-                <h2
-                  className="is-size-3 has-text-centered"
-                  style={{
-                    paddingBottom: ".7rem",
-                    marginLeft: "1rem",
-                    marginRight: "1rem",
-                  }}
-                >
-                  SVG
-                </h2>
-                <p
-                  className={""}
-                  style={{
-                    marginLeft: "1rem",
-                    marginRight: "1rem",
-                  }}
-                >
-                  Prototype
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
