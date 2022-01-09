@@ -506,3 +506,18 @@ button {
 .img-cta {
   border-radius: 1rem;
 }
+
+.srv-tiles {
+  border-radius: .3rem;
+  height: 8rem;
+  width: 11rem !important;
+}
+
+.tile-p {
+  font-weight: bolder;
+  margin-top: .2rem;
+}
+
+.srv-tiles:hover {
+  box-shadow: #ff934f 0px 5px 15px;
+}
