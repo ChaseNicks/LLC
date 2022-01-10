@@ -5,6 +5,11 @@ import proto from "../assets/blueprint.png";
 import brain from "../assets/brain.png";
 import define from "../assets/define.png";
 import comm from "../assets/comm.png";
+import metrics from "../assets/metrics.png";
+import connections from "../assets/connections.png";
+import dash from "../assets/dash.png";
+import build from "../assets/build.png";
+import tune from "../assets/tune.png";
 
 const Services = () => {
   return (
@@ -446,7 +451,7 @@ const Services = () => {
                   border: "1.2px solid #3CCF91",
                 }}
               >
-                <img src={comm} alt="developer" style={{ height: "4rem", width: "4rem"}} />
+                <img src={metrics} alt="developer" style={{ height: "4rem", width: "4rem"}} />
                 <p
                   className={"tile-p  is-size-5"}
                   style={{
@@ -454,7 +459,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Empathize
+                  KPIs & Metrics
                 </p>
               </div>
               <div
@@ -465,7 +470,7 @@ const Services = () => {
                   border: "1.2px solid #3CCF91",
                 }}
               >
-                <img src={define} alt="developer" style={{ height: "4rem", width: "4rem"}} />
+                <img src={connections} alt="developer" style={{ height: "4rem", width: "4rem"}} />
                 <p
                   className={"tile-p  is-size-5"}
                   style={{
@@ -473,7 +478,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Define
+                  Connections
                 </p>
               </div>
               <div
@@ -484,7 +489,7 @@ const Services = () => {
                   border: "1.2px solid #3CCF91",
                 }}
               >
-                <img src={brain} alt="developer" style={{ height: "4rem", width: "4rem"}} />
+                <img src={dash} alt="developer" style={{ height: "4rem", width: "4rem"}} />
                 <p
                   className={"tile-p  is-size-5"}
                   style={{
@@ -492,7 +497,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Ideate
+                  Blueprint
                 </p>
               </div>
             </div>
@@ -507,7 +512,7 @@ const Services = () => {
                   border: "1.2px solid #3CCF91",
                 }}
               >
-                <img src={maintain} alt="developer" style={{ height: "4rem", width: "4rem" }} />
+                <img src={build} alt="developer" style={{ height: "4rem", width: "4rem" }} />
                 <p
                   className={"tile-p is-size-5"}
                   style={{
@@ -515,7 +520,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Maintain
+                  Build
                 </p>
               </div>
               <div
@@ -545,7 +550,7 @@ const Services = () => {
                   border: "1.2px solid #3CCF91",
                 }}
               >
-                <img src={proto} alt="developer" style={{ height: "4rem", width: "4rem" }} />
+                <img src={tune} alt="developer" style={{ height: "4rem", width: "4rem" }} />
                 <p
                   className={"tile-p  is-size-5"}
                   style={{
@@ -553,7 +558,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Prototype
+                  Tune
                 </p>
               </div>
             </div>
