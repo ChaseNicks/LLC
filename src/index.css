@@ -537,6 +537,12 @@ button {
   width: 11rem !important;
 }
 
+.srv-tiles6 {
+  border-radius: 0.3rem;
+  height: 8rem;
+  width: 11rem !important;
+}
+
 .tile-p {
   font-weight: bolder;
   margin-top: 0.2rem;
@@ -560,4 +566,8 @@ button {
 
 .srv-tiles5:hover {
   box-shadow: #ffff00 0px 5px 15px;
+}
+
+.srv-tiles6:hover {
+  box-shadow: #972eff 0px 5px 15px;
 }
