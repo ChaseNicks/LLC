@@ -367,7 +367,7 @@ const Services = () => {
                 }}
               >
                 Existing <br /> Site {" "}
-                Revamp
+                Revam<span style={{ color: "#3C5CCF" }}>p</span>
               </h1>
               <p
                 className="is-size-5 is-size-6-mobile has-text-weight-semibold"
@@ -412,7 +412,7 @@ const Services = () => {
                 }}
               >
                 Analytic <br /> {" "}
-                Dashboards
+                Dashboard<span style={{ color: "#3CCF91" }}>s</span>
               </h1>
               <p
                 className="is-size-5 is-size-6-mobile has-text-weight-semibold"
@@ -576,7 +576,7 @@ const Services = () => {
 
           <div
             className="column is-half"
-            style={{ marginLeft: "1rem", marginTop: "4rem" }}
+            style={{ marginLeft: "1rem", marginTop: "2.6rem" }}
           >
             {/* 1st row of columns  */}
             <div className="columns">
@@ -710,7 +710,7 @@ const Services = () => {
                   paddingBottom: ".9rem",
                 }}
               >
-                Database {" "}
+                Databas<span style={{ color: "#ff0000" }}>e</span> {" "}
                 
               </h1>
               <p
@@ -1055,7 +1055,7 @@ const Services = () => {
                 }}
               >
                 Professional <br/>{" "}
-                Logo Designers
+                Logo Designer<span style={{ color: "#972EFF" }}>s</span>
                 
               </h1>
               <p
