@@ -9,7 +9,10 @@ import metrics from "../assets/metrics.png";
 import connections from "../assets/connections.png";
 import dash from "../assets/dash.png";
 import build from "../assets/build.png";
-import tune from "../assets/tune.png";
+import assess from "../assets/assess.png";
+import mockup from "../assets/mockup.png";
+import launch from "../assets/launch.png";
+
 
 const Services = () => {
   return (
@@ -27,7 +30,7 @@ const Services = () => {
           >
             {" "}
             {/* Needs to be changed */}
-            Custom software development services from professionals you’ll enjoy
+            Custom software development services from professionals you'll enjoy
             working with
           </h1>
           <p
@@ -249,7 +252,7 @@ const Services = () => {
                   border: "1.2px solid #3C5CCF",
                 }}
               >
-                <img src={comm} alt="developer" style={{ height: "4rem", width: "4rem"}} />
+                <img src={assess} alt="developer" style={{ height: "4rem", width: "4rem"}} />
                 <p
                   className={"tile-p  is-size-5"}
                   style={{
@@ -257,26 +260,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Empathize
-                </p>
-              </div>
-              <div
-                className="column srv-tiles2 is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
-                style={{
-                  marginLeft: ".5rem",
-                  marginRight: ".5rem",
-                  border: "1.2px solid #3C5CCF",
-                }}
-              >
-                <img src={define} alt="developer" style={{ height: "4rem", width: "4rem"}} />
-                <p
-                  className={"tile-p  is-size-5"}
-                  style={{
-                    marginLeft: "1rem",
-                    marginRight: "1rem",
-                  }}
-                >
-                  Define
+                  Assess
                 </p>
               </div>
               <div
@@ -298,6 +282,25 @@ const Services = () => {
                   Ideate
                 </p>
               </div>
+              <div
+                className="column srv-tiles2 is-one-third is-flex is-flex-direction-column is-justify-content-center is-align-items-center grow"
+                style={{
+                  marginLeft: ".5rem",
+                  marginRight: ".5rem",
+                  border: "1.2px solid #3C5CCF",
+                }}
+              >
+                <img src={mockup} alt="developer" style={{ height: "4rem", width: "4rem"}} />
+                <p
+                  className={"tile-p  is-size-5"}
+                  style={{
+                    marginLeft: "1rem",
+                    marginRight: "1rem",
+                  }}
+                >
+                  Mockup
+                </p>
+              </div>
             </div>
 
             {/* 2ndrow of columns*/}
@@ -310,7 +313,7 @@ const Services = () => {
                   border: "1.2px solid #3C5CCF",
                 }}
               >
-                <img src={maintain} alt="developer" style={{ height: "4rem", width: "4rem" }} />
+                <img src={build} alt="developer" style={{ height: "4rem", width: "4rem" }} />
                 <p
                   className={"tile-p is-size-5"}
                   style={{
@@ -318,7 +321,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Maintain
+                  Build
                 </p>
               </div>
               <div
@@ -348,7 +351,7 @@ const Services = () => {
                   border: "1.2px solid #3C5CCF",
                 }}
               >
-                <img src={proto} alt="developer" style={{ height: "4rem", width: "4rem" }} />
+                <img src={launch} alt="developer" style={{ height: "4rem", width: "4rem" }} />
                 <p
                   className={"tile-p  is-size-5"}
                   style={{
@@ -356,7 +359,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Prototype
+                  Launch
                 </p>
               </div>
             </div>
@@ -550,7 +553,7 @@ const Services = () => {
                   border: "1.2px solid #3CCF91",
                 }}
               >
-                <img src={tune} alt="developer" style={{ height: "4rem", width: "4rem" }} />
+                <img src={build} alt="developer" style={{ height: "4rem", width: "4rem" }} />
                 <p
                   className={"tile-p  is-size-5"}
                   style={{
