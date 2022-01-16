@@ -14,6 +14,7 @@ import check from "../assets/check.png";
 const Home = () => {
   return (
     <div>
+      {/* Page Start */}
       <div className="opc-hm">
         <div
           className="container cont-img is-one-third"
@@ -61,18 +62,11 @@ const Home = () => {
               </a>
             </div>
           </div>
-
-          {/* <div className="column" style={{ marginBottom: ".3rem" }}>
-            <img
-              src={Sample}
-              alt="Digifie"
-              style={{ height: "20rem", width: "29rem" }}
-            />
-          </div> */}
         </div>
       </div>
 
-      <div style={{ backgroundColor: "black", color: "white" }}>
+      {/* Services */}
+      <div style={{ backgroundColor: "black", color: "white", marginTop: "2.3rem" }}>
         <h1
           className="has-text-centered is-size-1"
           style={{
@@ -96,7 +90,7 @@ const Home = () => {
         </div>
         <p
           className="has-text-centered is-size-4"
-          style={{ marginBottom: "3rem", fontWeight: "bold" }}
+          style={{ marginBottom: "3rem", fontWeight: "bold", padding: ".2rem" }}
         >
           Our expertise in the digital space delivers solutions.{" "}
         </p>
@@ -355,7 +349,7 @@ const Home = () => {
       </div>
 
       {/* Work Timeline */}
-      <div className="container" style={{ marginTop: "6rem" }}>
+      <div className="container" style={{ marginTop: "8rem" }}>
         <div className="has-text-centered">
           <h1
             className="is-size-1 is-size-2-mobile"
@@ -384,10 +378,9 @@ const Home = () => {
               }}
             >
               {" "}
-              We have been lucky enough to work on some great software
-              development applications. Here is a glemce of some of those
-              projects, if you would like to see more of our work just send us
-              an email and we will be more than happy to share more samples.
+              Have a great idea that you want to validate or want to start scaling?
+              With our flexible process you will get everything you need with maximum
+              efficiency. 
             </p>
           </div>
         </div>
@@ -459,7 +452,7 @@ const Home = () => {
       </div>
 
       {/* Call to Action */}
-      <div className="container" style={{ marginTop: "5rem" }}>
+      <div className="container" style={{ marginTop: "9rem" }}>
         <div className="columns">
           <div className="column is-one-third" style={{ backgroundColor: "#232323 ", borderRadius: "1rem", marginRight: ".5rem", marginLeft: ".5rem" }}>
             <div style={{ padding: ".5rem .5rem 1rem .5rem" }}>
@@ -516,7 +509,7 @@ const Home = () => {
           </div>
 
 
-          <div className="column is-two-thirds">
+          <div className="column is-two-thirds" style={{ marginRight: ".5rem", marginLeft: ".5rem" }}>
             <img className="img-cta" src={cta} alt="software development trust quality" />
           </div>
 
@@ -526,7 +519,7 @@ const Home = () => {
       </div>
 
       {/* Our Work */}
-      <section style={{ paddingTop: "2.2rem", marginTop: "3rem" }}>
+      <section style={{ paddingTop: "2.2rem", marginTop: "6.9rem" }}>
         <div className="has-text-centered">
           <h1
             className="is-size-1 is-size-2-mobile"
@@ -550,6 +543,8 @@ const Home = () => {
               className="is-size-4 is-size-5-mobile has-text-centered"
               style={{
                 paddingBottom: "3rem",
+                paddingRight: ".3rem",
+                paddingLeft: ".3rem",
                 maxWidth: "48rem",
                 fontWeight: "bold",
               }}
@@ -731,8 +726,7 @@ const Home = () => {
       </section>
 
       {/* Call to Action */}
-
-      <div className="container" style={{ maxWidth: "76rem", marginBottom: "4rem" }}>
+      <div className="container" style={{ maxWidth: "76rem", marginBottom: "4rem", marginTop: "8.5rem" }}>
         <div className="columns" style={{ paddingLeft: "1.5rem", paddingRight: "1.5rem" }}>
           <div className="column is-two-third is-flex-direction-column is-flex-align-items-center" style={{ marginTop: "8rem" }}>
             <div style={{ marginBottom: "4rem" }}>
