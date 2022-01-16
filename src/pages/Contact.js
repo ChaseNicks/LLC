@@ -306,7 +306,7 @@ const Contact = () => {
                   height="285"
                   allowfullscreen=""
                   loading="lazy"
-                  className="map grow"
+                  className="map"
                 ></Iframe>
               </div>
             </div>
