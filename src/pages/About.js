@@ -33,13 +33,14 @@ const About = () => {
           </p>
         </div>
       </div>
-
+      {/* Values */}
       <div
         className="container is-fluid"
         style={{
           minHeight: "36.5rem",
           maxHeight: "120rem",
           marginBottom: "2.5rem",
+          marginTop: "4rem"
         }}
       >
         <h2
@@ -198,12 +199,12 @@ const About = () => {
           </div>
         </div>
       </div>
-
+      {/* Founders */}
       <div
         style={{
           height: "fit-content",
           marginBottom: "2.5rem",
-          marginTop: "2.5rem",
+          marginTop: "4rem",
         }}
       >
         <h2
@@ -283,6 +284,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      {/* Free Quote */}
       <div className="is-flex is-justify-content-center" style={{ marginTop: "8rem" }}>
         <div className="is-flex is-flex-direction-column is-justify-content-center is-align-items-center" style={{ marginBottom: "4rem" }}>
           <h2 className="is-size-3" style={{ fontWeight: "bolder", marginBottom: "1.5rem" }}> Get Your Free Quote Today with <a href="/contact"><span className="grow" style={{ color: "#972eff", fontWeight: "1000" }}>Digifie</span></a></h2>
