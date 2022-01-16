@@ -15,12 +15,23 @@ const Services = () => {
   return (
     <div>
       <div className="is-flex is-justify-content-center">
-        <div className="is-align-items-center has-text-centered">
+        <div className="is-align-items-center has-text-centered" style={{ marginBottom: "2.1rem" }}>
+          <p 
+            className="is-size-6 is-size-6-mobile has-text-warning-light"
+            style={{
+              padding: ".5rem",
+              marginTop: "5rem",
+              maxWidth: "48rem",
+            }}
+          >
+            A ONE-STOP-SHOP FOR DEVELOPMENT PARTNER
+          </p>
           <h1
             className="is-size-2 is-size-3-mobile"
             style={{
               padding: ".5rem",
-              marginTop: "5rem",
+              paddingRight: ".rem",
+              paddingLeft: ".88rem",
               maxWidth: "48rem",
               fontWeight: "900",
             }}
@@ -31,21 +42,20 @@ const Services = () => {
             working with
           </h1>
           <p
-            className="is-size-6 is-size-6-mobile"
+            className="is-size-5 is-size-6-mobile"
             style={{
               padding: ".5rem",
               marginTop: ".7rem",
               maxWidth: "48rem",
-              fontWeight: "900",
               lineHeight: "2",
             }}
           >
             {" "}
             {/* Needs to be changed */}
-            Team up with superstar product designers, frontend/backend
-            developers, cloud architects, and DevOps. 170+ professionals. 140+
-            delivered projects. Full-cycle custom software development services
-            powered by 9 years of best practices.
+            Team up with product designers, frontend/backend
+            developers. Over 8 delivered projects. Full-cycle
+            custom software development services powered by 2
+            years of best practices.
           </p>
         </div>
       </div>
