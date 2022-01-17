@@ -46,128 +46,132 @@ const Contact = () => {
 
   return (
     <div className="">
-      <h2
-        className="has-text-centered is-size-1"
-        style={{
-          marginTop: "5rem",
-          marginBottom: ".7rem",
-          fontWeight: "boldest",
-        }}
-      >
-        CONTACT US{" "}
-      </h2>
-      <div className="is-flex is-justify-content-center" style={{}}>
+      {/* Form */}
+      <div>
+        <h2
+          className="has-text-centered is-size-1"
+          style={{
+            marginTop: "5rem",
+            marginBottom: ".7rem",
+            fontWeight: "boldest",
+          }}
+        >
+          CONTACT US{" "}
+        </h2>
+        <div className="is-flex is-justify-content-center" style={{}}>
+          <div
+            className="justify-content-center"
+            style={{
+              background: "linear-gradient(to right, #972EFF , #ff934f)",
+              height: ".18rem",
+              width: "5%",
+              marginBottom: "1.2rem",
+            }}
+          ></div>
+        </div>
+        <div className="is-flex is-justify-content-center">
+          <p
+            className="has-text-centered is-size-4"
+            style={{
+              maxWidth: "40rem",
+              marginBottom: "3rem",
+              fontWeight: "bold",
+              paddingRight: ".4rem",
+              paddingLeft: ".4rem"
+            }}
+          >
+            Let Digifie help you with all your digital needs. There are multiple
+            ways to contact us, choose which one is best for you. Lets start
+            building your dream website.{" "}
+          </p>
+        </div>
+
         <div
-          className="justify-content-center"
           style={{
-            background: "linear-gradient(to right, #972EFF , #ff934f)",
-            height: ".18rem",
-            width: "5%",
-            marginBottom: "1.2rem",
-          }}
-        ></div>
-      </div>
-      <div className="is-flex is-justify-content-center">
-        <p
-          className="has-text-centered is-size-4"
-          style={{
-            maxWidth: "40rem",
-            marginBottom: "3rem",
-            fontWeight: "bold",
-            paddingRight: ".8rem",
+            marginLeft: "3rem",
+            marginRight: "3rem",
+            display: "flex",
+            justifyContent: "center",
           }}
         >
-          Let Digifie help you with all your digital needs. There are multiple
-          ways to contact us, choose which one is best for you. Lets start
-          building your dream website.{" "}
-        </p>
-      </div>
-
-      <div
-        style={{
-          marginLeft: "3rem",
-          marginRight: "3rem",
-          display: "flex",
-          justifyContent: "center",
-        }}
-      >
-        <form
-          onSubmit={handleSubmit}
-          style={{ width: "29rem", marginBottom: "2.5rem" }}
-        >
-          <div id="contact-form" className="">
-            <div
-              className="field is-flex is-flex-shrink-1 is-flex-direction-column is-centered"
-              style={{ paddingBottom: ".5rem" }}
-            >
-              <label
-                className="c-lab is-flex is-flex-start"
-                style={{ paddingBottom: ".2rem", fontWeight: "bold" }}
+          <form
+            onSubmit={handleSubmit}
+            style={{ width: "29rem", marginBottom: "2.5rem" }}
+          >
+            <div id="contact-form" className="">
+              <div
+                className="field is-flex is-flex-shrink-1 is-flex-direction-column is-centered"
+                style={{ paddingBottom: ".5rem" }}
               >
-                Email
-              </label>
-              <div className="control ">
-                <input
-                  className="input "
-                  type="email"
-                  placeholder="hello@"
-                  name="email"
-                />
-                <ValidationError
-                  prefix="Email"
-                  field="email"
-                  errors={state.errors}
-                />
-              </div>
-            </div>
-
-            <div
-              className="field flex is-flex-shrink-1 is-flex-direction-column"
-              style={{ paddingBottom: ".8rem" }}
-            >
-              <label
-                className="c-lab is-flex is-flex-start"
-                style={{ paddingBottom: ".2rem", fontWeight: "bold" }}
-              >
-                Message
-              </label>
-              <div className="control">
-                <textarea
-                  className="textarea"
-                  name="message"
-                  placeholder="Message"
-                />
-                <ValidationError
-                  prefix="Message"
-                  field="message"
-                  errors={state.errors}
-                />
-              </div>
-            </div>
-
-            <div className="btn-style">
-              <div className="field is-grouped is-flex is-justify-content-center">
+                <label
+                  className="c-lab is-flex is-flex-start"
+                  style={{ paddingBottom: ".2rem", fontWeight: "bold" }}
+                >
+                  Email
+                </label>
                 <div className="control ">
-                  <button
-                    type="submit"
-                    disabled={state.submitting}
-                    className="button grow"
-                    style={{
-                      borderColor: "#972EFF",
-                      fontWeight: "bold",
-                      color: "white",
-                      backgroundColor: "black",
-                    }}
-                  >
-                    Submit
-                  </button>
+                  <input
+                    className="input "
+                    type="email"
+                    placeholder="hello@"
+                    name="email"
+                  />
+                  <ValidationError
+                    prefix="Email"
+                    field="email"
+                    errors={state.errors}
+                  />
+                </div>
+              </div>
+
+              <div
+                className="field flex is-flex-shrink-1 is-flex-direction-column"
+                style={{ paddingBottom: ".8rem" }}
+              >
+                <label
+                  className="c-lab is-flex is-flex-start"
+                  style={{ paddingBottom: ".2rem", fontWeight: "bold" }}
+                >
+                  Message
+                </label>
+                <div className="control">
+                  <textarea
+                    className="textarea"
+                    name="message"
+                    placeholder="Message"
+                  />
+                  <ValidationError
+                    prefix="Message"
+                    field="message"
+                    errors={state.errors}
+                  />
+                </div>
+              </div>
+
+              <div className="btn-style">
+                <div className="field is-grouped is-flex is-justify-content-center">
+                  <div className="control ">
+                    <button
+                      type="submit"
+                      disabled={state.submitting}
+                      className="button grow"
+                      style={{
+                        borderColor: "#972EFF",
+                        fontWeight: "bold",
+                        color: "white",
+                        backgroundColor: "black",
+                      }}
+                    >
+                      Submit
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-
+      {/* Socials */}
       <div
         style={{
           height: "22rem",
@@ -212,93 +216,99 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <h2
-        className="has-text-centered is-size-1"
-        style={{
-          marginTop: "3rem",
-          marginBottom: ".7rem",
-          fontWeight: "boldest",
-        }}
-      >
-        LOCATIONS{" "}
-      </h2>
-      <div className="is-flex is-justify-content-center" style={{}}>
-        <div
-          className="justify-content-center"
+      {/* Location */}
+      <div>
+        <h2
+          className="has-text-centered is-size-1"
           style={{
-            background: "linear-gradient(to right, #972EFF , #ff934f)",
-            height: ".18rem",
-            width: "5%",
-            marginBottom: "2.3rem",
+            marginTop: "4.5rem",
+            marginBottom: ".7rem",
+            fontWeight: "boldest",
           }}
-        ></div>
-      </div>
-      <div className="is-justify-content-center" style={{ marginTop: "1rem" }}>
-        <div className="columns">
-          <div className="column">
-            <h1
-              className="has-text-centered is-size-1"
-              style={{
-                marginBottom: "1rem",
-                fontWeight: "boldest",
-              }}
-            >
-              Dallas, TX{" "}
-            </h1>
-            <p
-              className="is-size-4 has-text-centered test"
-              style={{
-                paddingBottom: "1.3rem",
-                marginLeft: "2rem",
-                marginRight: "2rem",
-                fontWeight: "bold",
-              }}
-            >
-              Address:{" "}
-              <b className="has-text-weight-medium">North Akard Street</b>
-            </p>
-            <p
-              className="is-size-4 has-text-centered test"
-              style={{
-                paddingBottom: "1.3rem",
-                marginLeft: "2rem",
-                marginRight: "2rem",
-                fontWeight: "bold",
-              }}
-            >
-              Email:{" "}
-              <b className="has-text-weight-medium">digifie@support.com</b>
-            </p>
-            <p
-              className="is-size-4 has-text-centered test"
-              style={{
-                paddingBottom: "1.3rem",
-                marginLeft: "2rem",
-                marginRight: "2rem",
-                fontWeight: "bold",
-              }}
-            >
-              Phone: <b className="has-text-weight-medium">(336)555-6566</b>
-            </p>
-          </div>
-          <div className="column is-centered">
-            <div
-              style={{
-                marginBottom: "5rem",
-                maxWidth: "450px",
-                marginRight: ".5rem",
-                marginLeft: ".5rem",
-              }}
-            >
-              <Iframe
-                title="myFrame"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83289.7917193692!2d-96.83036669157848!3d32.75671924500116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1639599293035!5m2!1sen!2sus"
-                width="100%"
-                height="285"
-                allowfullscreen=""
-                loading="lazy"
-                className="map grow"
-              ></Iframe>
+        >
+          LOCATIONS{" "}
+        </h2>
+        <div className="is-flex is-justify-content-center" style={{}}>
+          <div
+            className="justify-content-center"
+            style={{
+              background: "linear-gradient(to right, #972EFF , #ff934f)",
+              height: ".18rem",
+              width: "5%",
+              marginBottom: "2.3rem",
+            }}
+          ></div>
+        </div>
+        <div
+          className="is-justify-content-center"
+          style={{ marginTop: "1rem" }}
+        >
+          <div className="columns">
+            <div className="column">
+              <h1
+                className="has-text-centered is-size-1"
+                style={{
+                  marginBottom: "1rem",
+                  fontWeight: "boldest",
+                }}
+              >
+                Dallas, TX{" "}
+              </h1>
+              <p
+                className="is-size-4 has-text-centered test"
+                style={{
+                  paddingBottom: "1.3rem",
+                  marginLeft: "2rem",
+                  marginRight: "2rem",
+                  fontWeight: "bold",
+                }}
+              >
+                Address:{" "}
+                <b className="has-text-weight-medium">North Akard Street</b>
+              </p>
+              <p
+                className="is-size-4 has-text-centered test"
+                style={{
+                  paddingBottom: "1.3rem",
+                  marginLeft: "2rem",
+                  marginRight: "2rem",
+                  fontWeight: "bold",
+                }}
+              >
+                Email:{" "}
+                <b className="has-text-weight-medium">digifie@support.com</b>
+              </p>
+              <p
+                className="is-size-4 has-text-centered test"
+                style={{
+                  paddingBottom: "1.3rem",
+                  marginLeft: "2rem",
+                  marginRight: "2rem",
+                  fontWeight: "bold",
+                }}
+              >
+                Phone: <b className="has-text-weight-medium">(336)555-6566</b>
+              </p>
+            </div>
+            <div className="column is-centered">
+              <div
+                style={{
+                  marginBottom: "5rem",
+                  maxWidth: "515px",
+                  marginRight: ".5rem",
+                  marginLeft: ".5rem",
+                }}
+              >
+                <Iframe
+                  title="myFrame"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83289.7917193692!2d-96.83036669157848!3d32.75671924500116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX!5e0!3m2!1sen!2sus!4v1639599293035!5m2!1sen!2sus"
+                  width="100%"
+                  height="320"
+                  allowfullscreen=""
+                  loading="lazy"
+                  className="map"
+                ></Iframe>
+              </div>
             </div>
           </div>
         </div>
