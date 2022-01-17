@@ -288,7 +288,7 @@ const Services = () => {
                 }}
               >
                 <img
-                  src={comm}
+                  src={assess}
                   alt="developer"
                   style={{ height: "4rem", width: "4rem" }}
                 />
@@ -311,7 +311,7 @@ const Services = () => {
                 }}
               >
                 <img
-                  src={define}
+                  src={brain}
                   alt="developer"
                   style={{ height: "4rem", width: "4rem" }}
                 />
@@ -334,7 +334,7 @@ const Services = () => {
                 }}
               >
                 <img
-                  src={brain}
+                  src={mockup}
                   alt="developer"
                   style={{ height: "4rem", width: "4rem" }}
                 />
@@ -361,7 +361,7 @@ const Services = () => {
                 }}
               >
                 <img
-                  src={maintain}
+                  src={build}
                   alt="developer"
                   style={{ height: "4rem", width: "4rem" }}
                 />
@@ -407,7 +407,7 @@ const Services = () => {
                 }}
               >
                 <img
-                  src={proto}
+                  src={launch}
                   alt="developer"
                   style={{ height: "4rem", width: "4rem" }}
                 />
@@ -633,7 +633,7 @@ const Services = () => {
                 }}
               >
                 <img
-                  src={tune}
+                  src={build}
                   alt="developer"
                   style={{ height: "4rem", width: "4rem" }}
                 />
