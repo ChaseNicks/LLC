@@ -9,7 +9,10 @@ import metrics from "../assets/metrics.png";
 import connections from "../assets/connections.png";
 import dash from "../assets/dash.png";
 import build from "../assets/build.png";
-import tune from "../assets/tune.png";
+import assess from "../assets/assess.png";
+import mockup from "../assets/mockup.png";
+import launch from "../assets/launch.png";
+
 
 const Services = () => {
   return (
@@ -41,7 +44,7 @@ const Services = () => {
           >
             {" "}
             {/* Needs to be changed */}
-            Custom software development services from professionals you’ll enjoy
+            Custom software development services from professionals you'll enjoy
             working with
           </h1>
           <p
@@ -296,7 +299,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Empathize
+                  Assess
                 </p>
               </div>
               <div
@@ -319,7 +322,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Define
+                  Ideate
                 </p>
               </div>
               <div
@@ -342,7 +345,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Ideate
+                  Mockup
                 </p>
               </div>
             </div>
@@ -369,7 +372,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Maintain
+                  Build
                 </p>
               </div>
               <div
@@ -415,7 +418,7 @@ const Services = () => {
                     marginRight: "1rem",
                   }}
                 >
-                  Prototype
+                  Launch
                 </p>
               </div>
             </div>
